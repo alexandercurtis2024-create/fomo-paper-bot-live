@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T08:32:49.518279+00:00",
+  "generated_at": "2026-10-21T08:33:21.754689+00:00",
   "scorer_version": "v2",
   "cost_model_version": "costs_v1",
   "config_hash": "c90e7135b2e6",
@@ -10,39 +10,37 @@
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
-  "balance": 942.81,
-  "equity": 942.81,
+  "balance": 891.88,
+  "equity": 939.46,
   "realized_pnl": -57.19,
-  "unrealized_pnl": 0.0,
-  "pnl_pct": -5.72,
+  "unrealized_pnl": -3.34,
+  "pnl_pct": -6.05,
   "wins": 4,
   "losses": 13,
   "trades_closed": 3,
-  "open_positions": [],
+  "open_positions": [
+    {
+      "address": "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump",
+      "symbol": "GUZZLEGOAT",
+      "entry_price": 0.000341,
+      "current_price": 0.0003302,
+      "pct_change": -3.17,
+      "entry_score": 75.0,
+      "opened_at": "2026-10-21T08:32:54.537854+00:00",
+      "peak_price": 0.000341,
+      "sold_frac": 0.0,
+      "ladder_stage": "awaiting_tp1",
+      "history_file": "history/4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump.json"
+    }
+  ],
   "top_candidate": {
     "address": "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump",
     "symbol": "GUZZLEGOAT",
     "score": 75.0,
-    "price_usd": 0.0003195,
+    "price_usd": 0.0003302,
     "history_file": "history/4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-21T08:31:10.077383+00:00",
-      "kind": "skip",
-      "scorer_version": "v2",
-      "cost_model_version": "costs_v1",
-      "config_hash": "c90e7135b2e6",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "wifchi",
-      "address": "BLhG3Yk7JVDKkv1z3bPv7o1t2XnZMXAzpZmpvpnppump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-21T08:31:10.077409+00:00",
       "kind": "skip",
@@ -518,6 +516,79 @@
       "symbol": "SPWERPS",
       "address": "6KjWBTqdRhD7XKn7poB8DfHgSWZkakPuea32jsPweRpS",
       "score": 0.0
+    },
+    {
+      "ts": "2026-10-21T08:32:54.538300+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "GUZZLEGOAT",
+      "address": "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump",
+      "score": 75.0,
+      "components": {
+        "trend": 30,
+        "wash": 10.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 0.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 0.000341,
+      "decision_price": 0.0002981,
+      "fill_price": 0.0003469580904521143,
+      "size_usd": 50.0,
+      "qty": 144109.62411871122,
+      "features": {
+        "symbol": "GUZZLEGOAT",
+        "name": "Guzzle Goat",
+        "address": "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump",
+        "pair_address": "3Nazu5yFVWPnLQKXt8uNoiksjoL4UAfK2FBvr5b8YvEu",
+        "dex": "pumpswap",
+        "price_usd": 0.0002981,
+        "age_min": 30.5,
+        "liquidity_usd": 76262.84,
+        "fdv": 297896.0,
+        "market_cap": 297896.0,
+        "volume_5m": 219680.34,
+        "volume_1h": 1208539.28,
+        "buys_5m": 1396,
+        "sells_5m": 434,
+        "buys_1h": 6916,
+        "sells_1h": 4045,
+        "price_change_5m": 20.81,
+        "price_change_1h": 575.0,
+        "url": "https://dexscreener.com/solana/3nazu5yfvwpnlqkxt8unoiksjol4uafk2fbvr5b8yveu",
+        "fetched_at": "2026-10-21T08:32:11.687251+00:00",
+        "deployer": "Eq2i4uijJnvPH3vf6fsnjaus14g7gHRppDEz5hqQmaes"
+      },
+      "impact_pct_entry": 0.0175,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4265,
+      "cash_deducted_usd": 50.9265,
+      "est_round_trip_cost_pct": 7.2,
+      "failed_fill": false,
+      "rng_roll": 0.1664,
+      "sol_price_usd": 106.63,
+      "sol_price_source": "dexscreener",
+      "deployer": "Eq2i4uijJnvPH3vf6fsnjaus14g7gHRppDEz5hqQmaes",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 570,
+        "same_bucket_open": 0,
+        "hot_open": 0,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 1.0,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.1,
+      "reject_rules": []
     }
   ],
   "trade_events": [
@@ -1886,17 +1957,90 @@
       "liq_collapse_flag": true,
       "peak_price_usd": 7.479e-05,
       "trough_price_usd": 1.566e-05
+    },
+    {
+      "ts": "2026-10-21T08:32:54.538300+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "GUZZLEGOAT",
+      "address": "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump",
+      "score": 75.0,
+      "components": {
+        "trend": 30,
+        "wash": 10.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 0.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 0.000341,
+      "decision_price": 0.0002981,
+      "fill_price": 0.0003469580904521143,
+      "size_usd": 50.0,
+      "qty": 144109.62411871122,
+      "features": {
+        "symbol": "GUZZLEGOAT",
+        "name": "Guzzle Goat",
+        "address": "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump",
+        "pair_address": "3Nazu5yFVWPnLQKXt8uNoiksjoL4UAfK2FBvr5b8YvEu",
+        "dex": "pumpswap",
+        "price_usd": 0.0002981,
+        "age_min": 30.5,
+        "liquidity_usd": 76262.84,
+        "fdv": 297896.0,
+        "market_cap": 297896.0,
+        "volume_5m": 219680.34,
+        "volume_1h": 1208539.28,
+        "buys_5m": 1396,
+        "sells_5m": 434,
+        "buys_1h": 6916,
+        "sells_1h": 4045,
+        "price_change_5m": 20.81,
+        "price_change_1h": 575.0,
+        "url": "https://dexscreener.com/solana/3nazu5yfvwpnlqkxt8unoiksjol4uafk2fbvr5b8yveu",
+        "fetched_at": "2026-10-21T08:32:11.687251+00:00",
+        "deployer": "Eq2i4uijJnvPH3vf6fsnjaus14g7gHRppDEz5hqQmaes"
+      },
+      "impact_pct_entry": 0.0175,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4265,
+      "cash_deducted_usd": 50.9265,
+      "est_round_trip_cost_pct": 7.2,
+      "failed_fill": false,
+      "rng_roll": 0.1664,
+      "sol_price_usd": 106.63,
+      "sol_price_source": "dexscreener",
+      "deployer": "Eq2i4uijJnvPH3vf6fsnjaus14g7gHRppDEz5hqQmaes",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 570,
+        "same_bucket_open": 0,
+        "hot_open": 0,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 1.0,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.1,
+      "reject_rules": []
     }
   ],
   "history_files": {
     "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump": "history/4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump.json"
   },
   "swarm": {
-    "equity": 9882.88,
+    "equity": 9883.42,
     "balance": 9788.85,
     "starting_balance": 10000.0,
     "realized_pnl": -141.43,
-    "unrealized_pnl": 24.77,
+    "unrealized_pnl": 25.31,
     "open_count": 2,
     "pending_count": 0,
     "closed_count": 5,
@@ -1906,11 +2050,11 @@
     "top_open": [
       {
         "symbol": "PHP",
-        "pct_change": 51.93
+        "pct_change": 42.23
       },
       {
         "symbol": "GUZZLEGOAT",
-        "pct_change": 36.71
+        "pct_change": 41.29
       }
     ]
   }
