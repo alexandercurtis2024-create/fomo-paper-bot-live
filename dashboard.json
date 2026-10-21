@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T10:30:24.094182+00:00",
+  "generated_at": "2026-10-21T10:30:47.187166+00:00",
   "scorer_version": "v2",
   "cost_model_version": "costs_v1",
   "config_hash": "c90e7135b2e6",
@@ -10,11 +10,11 @@
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
-  "balance": 851.77,
-  "equity": 881.68,
+  "balance": 800.85,
+  "equity": 879.39,
   "realized_pnl": -117.67,
-  "unrealized_pnl": -0.64,
-  "pnl_pct": -11.83,
+  "unrealized_pnl": -2.94,
+  "pnl_pct": -12.06,
   "wins": 4,
   "losses": 18,
   "trades_closed": 5,
@@ -23,41 +23,37 @@
       "address": "CymGUyYFMxtwdfHeA8rj7rywS1NkrTCGVt1cw1x5pump",
       "symbol": "TRENCHPAD",
       "entry_price": 6.363e-05,
-      "current_price": 6.471e-05,
-      "pct_change": 1.7,
+      "current_price": 6.515e-05,
+      "pct_change": 2.39,
       "entry_score": 85.0,
       "opened_at": "2026-10-21T09:34:47.175125+00:00",
       "peak_price": 9.355e-05,
       "sold_frac": 0.4,
       "ladder_stage": "tp1_done_awaiting_tp2",
       "history_file": "history/CymGUyYFMxtwdfHeA8rj7rywS1NkrTCGVt1cw1x5pump.json"
+    },
+    {
+      "address": "BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i",
+      "symbol": "BAKDINU",
+      "entry_price": 6.32e-05,
+      "current_price": 6.243e-05,
+      "pct_change": -1.22,
+      "entry_score": 85.0,
+      "opened_at": "2026-10-21T10:30:27.994892+00:00",
+      "peak_price": 6.32e-05,
+      "sold_frac": 0.0,
+      "ladder_stage": "awaiting_tp1",
+      "history_file": "history/BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i.json"
     }
   ],
   "top_candidate": {
     "address": "BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i",
     "symbol": "BAKDINU",
     "score": 85.0,
-    "price_usd": 6.32e-05,
+    "price_usd": 6.243e-05,
     "history_file": "history/BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-21T10:28:26.773150+00:00",
-      "kind": "skip",
-      "scorer_version": "v2",
-      "cost_model_version": "costs_v1",
-      "config_hash": "c90e7135b2e6",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "vol_liq > 8 & |h1| < 8"
-      ],
-      "symbol": "wifchi",
-      "address": "BLhG3Yk7JVDKkv1z3bPv7o1t2XnZMXAzpZmpvpnppump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-21T10:30:04.159548+00:00",
       "kind": "scan",
@@ -553,6 +549,79 @@
       "symbol": "wifchi",
       "address": "BLhG3Yk7JVDKkv1z3bPv7o1t2XnZMXAzpZmpvpnppump",
       "score": 0.0
+    },
+    {
+      "ts": "2026-10-21T10:30:27.996173+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "BAKDINU",
+      "address": "BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i",
+      "score": 85.0,
+      "components": {
+        "trend": 30,
+        "wash": 5.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 15.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 6.32e-05,
+      "decision_price": 6.219e-05,
+      "fill_price": 6.44630262623467e-05,
+      "size_usd": 50.0,
+      "qty": 775638.4225046125,
+      "features": {
+        "symbol": "BAKDINU",
+        "name": "bakdinu",
+        "address": "BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i",
+        "pair_address": "CVspfwbaAxkSmRhncP2GUN9u5ZF5fC7zuoUADmaZySD3",
+        "dex": "pumpswap",
+        "price_usd": 6.219e-05,
+        "age_min": 18.9,
+        "liquidity_usd": 19918.06,
+        "fdv": 62193.0,
+        "market_cap": 62193.0,
+        "volume_5m": 24569.55,
+        "volume_1h": 64374.81,
+        "buys_5m": 307,
+        "sells_5m": 223,
+        "buys_1h": 916,
+        "sells_1h": 664,
+        "price_change_5m": 33.06,
+        "price_change_1h": 39.96,
+        "url": "https://dexscreener.com/solana/cvspfwbaaxksmrhncp2gun9u5zf5fc7zuouadmazysd3",
+        "fetched_at": "2026-10-21T10:29:35.476954+00:00",
+        "deployer": "6AEVnL5aEXRR7oXUSE3G1qM9JHSKLzcRjiursBLmdjZv"
+      },
+      "impact_pct_entry": 0.02,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4247,
+      "cash_deducted_usd": 50.9247,
+      "est_round_trip_cost_pct": 7.7,
+      "failed_fill": false,
+      "rng_roll": 0.6372,
+      "sol_price_usd": 106.18,
+      "sol_price_source": "dexscreener",
+      "deployer": "6AEVnL5aEXRR7oXUSE3G1qM9JHSKLzcRjiursBLmdjZv",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 30,
+        "same_bucket_open": 0,
+        "hot_open": 1,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 1.0,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.2,
+      "reject_rules": []
     }
   ],
   "trade_events": [
@@ -2365,6 +2434,79 @@
       "liq_collapse_flag": false,
       "peak_price_usd": 6.28e-05,
       "trough_price_usd": 3.111e-05
+    },
+    {
+      "ts": "2026-10-21T10:30:27.996173+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "BAKDINU",
+      "address": "BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i",
+      "score": 85.0,
+      "components": {
+        "trend": 30,
+        "wash": 5.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 15.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 6.32e-05,
+      "decision_price": 6.219e-05,
+      "fill_price": 6.44630262623467e-05,
+      "size_usd": 50.0,
+      "qty": 775638.4225046125,
+      "features": {
+        "symbol": "BAKDINU",
+        "name": "bakdinu",
+        "address": "BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i",
+        "pair_address": "CVspfwbaAxkSmRhncP2GUN9u5ZF5fC7zuoUADmaZySD3",
+        "dex": "pumpswap",
+        "price_usd": 6.219e-05,
+        "age_min": 18.9,
+        "liquidity_usd": 19918.06,
+        "fdv": 62193.0,
+        "market_cap": 62193.0,
+        "volume_5m": 24569.55,
+        "volume_1h": 64374.81,
+        "buys_5m": 307,
+        "sells_5m": 223,
+        "buys_1h": 916,
+        "sells_1h": 664,
+        "price_change_5m": 33.06,
+        "price_change_1h": 39.96,
+        "url": "https://dexscreener.com/solana/cvspfwbaaxksmrhncp2gun9u5zf5fc7zuouadmazysd3",
+        "fetched_at": "2026-10-21T10:29:35.476954+00:00",
+        "deployer": "6AEVnL5aEXRR7oXUSE3G1qM9JHSKLzcRjiursBLmdjZv"
+      },
+      "impact_pct_entry": 0.02,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4247,
+      "cash_deducted_usd": 50.9247,
+      "est_round_trip_cost_pct": 7.7,
+      "failed_fill": false,
+      "rng_roll": 0.6372,
+      "sol_price_usd": 106.18,
+      "sol_price_source": "dexscreener",
+      "deployer": "6AEVnL5aEXRR7oXUSE3G1qM9JHSKLzcRjiursBLmdjZv",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 30,
+        "same_bucket_open": 0,
+        "hot_open": 1,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 1.0,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.2,
+      "reject_rules": []
     }
   ],
   "history_files": {
@@ -2372,13 +2514,13 @@
     "CymGUyYFMxtwdfHeA8rj7rywS1NkrTCGVt1cw1x5pump": "history/CymGUyYFMxtwdfHeA8rj7rywS1NkrTCGVt1cw1x5pump.json"
   },
   "swarm": {
-    "equity": 9610.09,
-    "balance": 9507.67,
+    "equity": 9607.86,
+    "balance": 9456.75,
     "starting_balance": 10000.0,
     "realized_pnl": -409.08,
-    "unrealized_pnl": 20.94,
-    "open_count": 2,
-    "pending_count": 1,
+    "unrealized_pnl": 18.7,
+    "open_count": 3,
+    "pending_count": 0,
     "closed_count": 16,
     "wins": 1,
     "losses": 15,
@@ -2386,11 +2528,15 @@
     "top_open": [
       {
         "symbol": "TRENCHPAD",
-        "pct_change": 31.98
+        "pct_change": 32.88
       },
       {
         "symbol": "BAKDINU",
-        "pct_change": 29.83
+        "pct_change": 28.25
+      },
+      {
+        "symbol": "BOUNCER",
+        "pct_change": 0.45
       }
     ]
   }
