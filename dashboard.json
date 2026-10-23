@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:59:24.746052+00:00",
+  "generated_at": "2026-10-23T06:00:10.356238+00:00",
   "scorer_version": "v2",
   "cost_model_version": "costs_v1",
   "config_hash": "c90e7135b2e6",
@@ -11,10 +11,10 @@
   },
   "starting_balance": 1000.0,
   "balance": 623.97,
-  "equity": 677.52,
+  "equity": 680.07,
   "realized_pnl": -324.68,
-  "unrealized_pnl": 2.63,
-  "pnl_pct": -32.25,
+  "unrealized_pnl": 5.18,
+  "pnl_pct": -31.99,
   "wins": 4,
   "losses": 30,
   "trades_closed": 13,
@@ -23,8 +23,8 @@
       "address": "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump",
       "symbol": "MEOWE",
       "entry_price": 0.0001905,
-      "current_price": 0.0002078,
-      "pct_change": 9.08,
+      "current_price": 0.0002177,
+      "pct_change": 14.28,
       "entry_score": 75.0,
       "opened_at": "2026-10-23T05:29:31.769631+00:00",
       "peak_price": 0.0002624,
@@ -37,26 +37,10 @@
     "address": "Dgc7ZeiCtDj4X5hoBpyZhig2BS7tekccZzKGBsm7pump",
     "symbol": "BRAIN",
     "score": 78.0,
-    "price_usd": 2.241e-05,
+    "price_usd": 1.758e-05,
     "history_file": "history/Dgc7ZeiCtDj4X5hoBpyZhig2BS7tekccZzKGBsm7pump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-23T05:57:34.818327+00:00",
-      "kind": "skip",
-      "scorer_version": "v2",
-      "cost_model_version": "costs_v1",
-      "config_hash": "c90e7135b2e6",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (2250 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "protect",
-      "address": "5VSpBZ4tj7PUkyx6bV8KLMch4F2LDGGxj1BT96rpump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-23T05:57:34.818365+00:00",
       "kind": "skip",
@@ -520,6 +504,26 @@
       "symbol": "TGMB",
       "address": "Du9kbMui6rtyvLgqXRBSoriVuRM8aLhskwRbU8gXpump",
       "score": 0.0
+    },
+    {
+      "ts": "2026-10-23T05:59:26.202942+00:00",
+      "kind": "entry_aborted_delay",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "BRAIN",
+      "address": "Dgc7ZeiCtDj4X5hoBpyZhig2BS7tekccZzKGBsm7pump",
+      "score": 78.0,
+      "abort_reason": "liq_drop_during_delay",
+      "reject_rules": [
+        "liq_drop_during_delay"
+      ],
+      "decision_price": 6.328e-05,
+      "fill_price": 2.241e-05,
+      "decision_liq": 19922.79,
+      "fill_liq": 11212.98,
+      "entry_delay_actual_s": 20.4,
+      "deployer": "57hshkY5arh16mYw36Bp5i3GByXFbVUE3oDBLCihcWVx"
     }
   ],
   "trade_events": [
@@ -3463,11 +3467,11 @@
     "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": "history/FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump.json"
   },
   "swarm": {
-    "equity": 9206.39,
+    "equity": 9203.05,
     "balance": 8969.37,
     "starting_balance": 10000.0,
     "realized_pnl": -766.07,
-    "unrealized_pnl": -25.71,
+    "unrealized_pnl": -29.06,
     "open_count": 7,
     "pending_count": 0,
     "closed_count": 34,
@@ -3477,7 +3481,7 @@
     "top_open": [
       {
         "symbol": "MEOWE",
-        "pct_change": 38.07
+        "pct_change": 44.65
       },
       {
         "symbol": "FILLED",
@@ -3489,7 +3493,7 @@
       },
       {
         "symbol": "GATO",
-        "pct_change": -2.08
+        "pct_change": -3.42
       },
       {
         "symbol": "Xingxing",
