@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-23T08:52:59.833939+00:00",
+  "generated_at": "2026-10-23T08:57:12.178535+00:00",
   "scorer_version": "v2",
   "cost_model_version": "costs_v1",
   "config_hash": "c90e7135b2e6",
   "regime": {
-    "regime_value": 0.95,
+    "regime_value": 1.0,
     "regime_state": "poor",
     "samples": 20,
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
   "balance": 529.26,
-  "equity": 556.85,
+  "equity": 554.11,
   "realized_pnl": -439.73,
-  "unrealized_pnl": -2.96,
-  "pnl_pct": -44.31,
+  "unrealized_pnl": -5.7,
+  "pnl_pct": -44.59,
   "wins": 7,
   "losses": 35,
   "trades_closed": 18,
@@ -23,8 +23,8 @@
       "address": "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump",
       "symbol": "MEOWE",
       "entry_price": 0.0001145,
-      "current_price": 0.0001073,
-      "pct_change": -6.29,
+      "current_price": 9.666e-05,
+      "pct_change": -15.58,
       "entry_score": 80.0,
       "opened_at": "2026-10-23T08:31:44.868384+00:00",
       "peak_price": 0.0001354,
@@ -37,27 +37,10 @@
     "address": "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump",
     "symbol": "MEOWE",
     "score": 85.0,
-    "price_usd": 0.0001073,
+    "price_usd": 9.666e-05,
     "history_file": "history/FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-23T08:50:09.313509+00:00",
-      "kind": "skip",
-      "scorer_version": "v2",
-      "cost_model_version": "costs_v1",
-      "config_hash": "c90e7135b2e6",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "GAME",
-      "address": "AoC5CM2qgKDpUYdkTAzuZnTpqiV8Sh3n3X9CkJGZpump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-23T08:50:09.313538+00:00",
       "kind": "skip",
@@ -521,6 +504,17 @@
       "symbol": "POOT",
       "address": "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
       "score": 0.0
+    },
+    {
+      "ts": "2026-10-23T08:53:01.099615+00:00",
+      "kind": "scan",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "tokens_scanned": 29,
+      "top_symbol": "MEOWE",
+      "top_score": 77.0,
+      "above_threshold": 1
     }
   ],
   "trade_events": [
@@ -4184,11 +4178,11 @@
     "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": "history/FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump.json"
   },
   "swarm": {
-    "equity": 9023.83,
+    "equity": 8967.88,
     "balance": 8754.5,
     "starting_balance": 10000.0,
     "realized_pnl": -947.9,
-    "unrealized_pnl": -26.0,
+    "unrealized_pnl": -81.95,
     "open_count": 7,
     "pending_count": 0,
     "closed_count": 49,
@@ -4196,10 +4190,6 @@
     "losses": 42,
     "expectancy_per_trade": -19.3449,
     "top_open": [
-      {
-        "symbol": "PULP",
-        "pct_change": 6.38
-      },
       {
         "symbol": "PHP",
         "pct_change": 0.0
@@ -4210,11 +4200,15 @@
       },
       {
         "symbol": "MEOWE",
-        "pct_change": -1.65
+        "pct_change": -11.4
       },
       {
         "symbol": "POOT",
-        "pct_change": -14.32
+        "pct_change": -14.18
+      },
+      {
+        "symbol": "Au",
+        "pct_change": -20.95
       }
     ]
   }
