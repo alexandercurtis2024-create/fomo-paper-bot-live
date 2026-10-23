@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:47:02.024027+00:00",
+  "generated_at": "2026-10-23T11:47:56.828077+00:00",
   "scorer_version": "v2",
   "cost_model_version": "costs_v1",
   "config_hash": "c90e7135b2e6",
@@ -10,40 +10,37 @@
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
-  "balance": 474.03,
-  "equity": 474.03,
+  "balance": 423.11,
+  "equity": 478.51,
   "realized_pnl": -525.48,
-  "unrealized_pnl": 0.0,
-  "pnl_pct": -52.6,
+  "unrealized_pnl": 4.48,
+  "pnl_pct": -52.15,
   "wins": 12,
   "losses": 40,
   "trades_closed": 24,
-  "open_positions": [],
+  "open_positions": [
+    {
+      "address": "EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump",
+      "symbol": "Bear",
+      "entry_price": 4.788e-05,
+      "current_price": 5.413e-05,
+      "pct_change": 13.05,
+      "entry_score": 85.0,
+      "opened_at": "2026-10-23T11:47:19.994353+00:00",
+      "peak_price": 4.788e-05,
+      "sold_frac": 0.0,
+      "ladder_stage": "awaiting_tp1",
+      "history_file": "history/EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump.json"
+    }
+  ],
   "top_candidate": {
     "address": "EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump",
     "symbol": "Bear",
     "score": 85.0,
-    "price_usd": 5.026e-05,
+    "price_usd": 5.413e-05,
     "history_file": "history/EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-23T11:45:37.314570+00:00",
-      "kind": "skip",
-      "scorer_version": "v2",
-      "cost_model_version": "costs_v1",
-      "config_hash": "c90e7135b2e6",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "vol_liq > 8 & |h1| < 8"
-      ],
-      "symbol": "SADROLL",
-      "address": "GWAjdtUtEF4LxBogpV6vLb5eGbUKnPq2KL5zx1SCpump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-23T11:45:37.314672+00:00",
       "kind": "skip",
@@ -516,6 +513,79 @@
       "symbol": "INCOGNITO",
       "address": "6g6PeQJsP28mxttPv55HMRY99Qz7MHw7uuhuJmptpump",
       "score": 0.0
+    },
+    {
+      "ts": "2026-10-23T11:47:19.994904+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "Bear",
+      "address": "EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump",
+      "score": 85.0,
+      "components": {
+        "trend": 30,
+        "wash": 5.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 15.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 4.788e-05,
+      "decision_price": 5.239e-05,
+      "fill_price": 4.885353476282444e-05,
+      "size_usd": 50.0,
+      "qty": 1023467.3958136593,
+      "features": {
+        "symbol": "Bear",
+        "name": "The Playful Polar Bear",
+        "address": "EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump",
+        "pair_address": "2WLnHH53VutGVZ4zzKzRHKHdX9qSuv5AhehbR8toNcpy",
+        "dex": "pumpswap",
+        "price_usd": 5.239e-05,
+        "age_min": 120.0,
+        "liquidity_usd": 18466.15,
+        "fdv": 49979.0,
+        "market_cap": 49979.0,
+        "volume_5m": 11619.76,
+        "volume_1h": 59501.69,
+        "buys_5m": 104,
+        "sells_5m": 67,
+        "buys_1h": 919,
+        "sells_1h": 576,
+        "price_change_5m": 80.54,
+        "price_change_1h": 66.11,
+        "url": "https://dexscreener.com/solana/2wlnhh53vutgvz4zzkzrhkhdx9qsuv5ahehbr8toncpy",
+        "fetched_at": "2026-10-23T11:46:50.127778+00:00",
+        "deployer": "DH3o64KoMtqUoPboyaTFuYqv3XK9X3Rc9by4DGd1YrVe"
+      },
+      "impact_pct_entry": 0.0203,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.417,
+      "cash_deducted_usd": 50.917,
+      "est_round_trip_cost_pct": 7.73,
+      "failed_fill": false,
+      "rng_roll": 0.6068,
+      "sol_price_usd": 104.25,
+      "sol_price_source": "dexscreener",
+      "deployer": "DH3o64KoMtqUoPboyaTFuYqv3XK9X3Rc9by4DGd1YrVe",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 60,
+        "same_bucket_open": 0,
+        "hot_open": 0,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 1.0,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.3,
+      "reject_rules": []
     }
   ],
   "trade_events": [
@@ -4988,17 +5058,90 @@
       "liq_collapse_flag": false,
       "peak_price_usd": 0.0002209,
       "trough_price_usd": 6.056e-05
+    },
+    {
+      "ts": "2026-10-23T11:47:19.994904+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "Bear",
+      "address": "EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump",
+      "score": 85.0,
+      "components": {
+        "trend": 30,
+        "wash": 5.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 15.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 4.788e-05,
+      "decision_price": 5.239e-05,
+      "fill_price": 4.885353476282444e-05,
+      "size_usd": 50.0,
+      "qty": 1023467.3958136593,
+      "features": {
+        "symbol": "Bear",
+        "name": "The Playful Polar Bear",
+        "address": "EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump",
+        "pair_address": "2WLnHH53VutGVZ4zzKzRHKHdX9qSuv5AhehbR8toNcpy",
+        "dex": "pumpswap",
+        "price_usd": 5.239e-05,
+        "age_min": 120.0,
+        "liquidity_usd": 18466.15,
+        "fdv": 49979.0,
+        "market_cap": 49979.0,
+        "volume_5m": 11619.76,
+        "volume_1h": 59501.69,
+        "buys_5m": 104,
+        "sells_5m": 67,
+        "buys_1h": 919,
+        "sells_1h": 576,
+        "price_change_5m": 80.54,
+        "price_change_1h": 66.11,
+        "url": "https://dexscreener.com/solana/2wlnhh53vutgvz4zzkzrhkhdx9qsuv5ahehbr8toncpy",
+        "fetched_at": "2026-10-23T11:46:50.127778+00:00",
+        "deployer": "DH3o64KoMtqUoPboyaTFuYqv3XK9X3Rc9by4DGd1YrVe"
+      },
+      "impact_pct_entry": 0.0203,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.417,
+      "cash_deducted_usd": 50.917,
+      "est_round_trip_cost_pct": 7.73,
+      "failed_fill": false,
+      "rng_roll": 0.6068,
+      "sol_price_usd": 104.25,
+      "sol_price_source": "dexscreener",
+      "deployer": "DH3o64KoMtqUoPboyaTFuYqv3XK9X3Rc9by4DGd1YrVe",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 60,
+        "same_bucket_open": 0,
+        "hot_open": 0,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 1.0,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.3,
+      "reject_rules": []
     }
   ],
   "history_files": {
     "EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump": "history/EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump.json"
   },
   "swarm": {
-    "equity": 8644.74,
+    "equity": 8648.14,
     "balance": 8551.5,
     "starting_balance": 10000.0,
     "realized_pnl": -1344.32,
-    "unrealized_pnl": -8.6,
+    "unrealized_pnl": -5.2,
     "open_count": 2,
     "pending_count": 0,
     "closed_count": 77,
@@ -5012,7 +5155,7 @@
       },
       {
         "symbol": "Bear",
-        "pct_change": -9.91
+        "pct_change": -2.98
       }
     ]
   }
