@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:29:18.687434+00:00",
+  "generated_at": "2026-10-23T05:30:05.281675+00:00",
   "scorer_version": "v2",
   "cost_model_version": "costs_v1",
   "config_hash": "c90e7135b2e6",
@@ -10,11 +10,11 @@
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
-  "balance": 656.88,
-  "equity": 684.76,
+  "balance": 605.96,
+  "equity": 676.56,
   "realized_pnl": -312.14,
-  "unrealized_pnl": -2.67,
-  "pnl_pct": -31.52,
+  "unrealized_pnl": -10.87,
+  "pnl_pct": -32.34,
   "wins": 4,
   "losses": 29,
   "trades_closed": 12,
@@ -23,40 +23,37 @@
       "address": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
       "symbol": "zonki",
       "entry_price": 0.0002066,
-      "current_price": 0.0001956,
-      "pct_change": -5.32,
+      "current_price": 0.0001912,
+      "pct_change": -7.45,
       "entry_score": 83.0,
       "opened_at": "2026-10-23T04:44:28.067947+00:00",
       "peak_price": 0.0002154,
       "sold_frac": 0.4,
       "ladder_stage": "tp1_done_awaiting_tp2",
       "history_file": "history/2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump.json"
+    },
+    {
+      "address": "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump",
+      "symbol": "MEOWE",
+      "entry_price": 0.0001905,
+      "current_price": 0.0001682,
+      "pct_change": -11.71,
+      "entry_score": 75.0,
+      "opened_at": "2026-10-23T05:29:31.769631+00:00",
+      "peak_price": 0.0001905,
+      "sold_frac": 0.0,
+      "ladder_stage": "awaiting_tp1",
+      "history_file": "history/FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump.json"
     }
   ],
   "top_candidate": {
     "address": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
     "symbol": "zonki",
     "score": 84.6,
-    "price_usd": 0.0001956,
+    "price_usd": 0.0001912,
     "history_file": "history/2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-23T05:27:37.655620+00:00",
-      "kind": "skip",
-      "scorer_version": "v2",
-      "cost_model_version": "costs_v1",
-      "config_hash": "c90e7135b2e6",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (3095 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "CAPYGLOW",
-      "address": "4C8xh6tW9wbeG7vX2DwmPJasXL7fQ6dUiNMCneu8pump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-23T05:27:37.655671+00:00",
       "kind": "skip",
@@ -519,6 +516,79 @@
       "symbol": "Capital",
       "address": "5EdajXG624C7uVLArueGjFxEAdbJnSs12orQJ8RZpump",
       "score": 0.0
+    },
+    {
+      "ts": "2026-10-23T05:29:31.770184+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "MEOWE",
+      "address": "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump",
+      "score": 75.0,
+      "components": {
+        "trend": 30,
+        "wash": 10.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 0.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 0.0001905,
+      "decision_price": 0.0001994,
+      "fill_price": 0.00019403464846259652,
+      "size_usd": 50.0,
+      "qty": 257685.9359715765,
+      "features": {
+        "symbol": "MEOWE",
+        "name": "Meowecoin",
+        "address": "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump",
+        "pair_address": "5iQ5n8Sir2xKpGDJYcem5VxW6HVqUF6rkVyYeMepLs6u",
+        "dex": "pumpswap",
+        "price_usd": 0.0001994,
+        "age_min": 101.6,
+        "liquidity_usd": 40515.61,
+        "fdv": 191676.0,
+        "market_cap": 191676.0,
+        "volume_5m": 16790.96,
+        "volume_1h": 339958.65,
+        "buys_5m": 145,
+        "sells_5m": 125,
+        "buys_1h": 3657,
+        "sells_1h": 2185,
+        "price_change_5m": 36.14,
+        "price_change_1h": 45.78,
+        "url": "https://dexscreener.com/solana/5iq5n8sir2xkpgdjycem5vxw6hvquf6rkvyyemepls6u",
+        "fetched_at": "2026-10-23T05:28:47.169928+00:00",
+        "deployer": "CgtHRjZMRLJeZBDmiCMByw5zfE4aAtJHpCsA4gR94Jq2"
+      },
+      "impact_pct_entry": 0.0186,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4166,
+      "cash_deducted_usd": 50.9166,
+      "est_round_trip_cost_pct": 7.38,
+      "failed_fill": false,
+      "rng_roll": 0.6401,
+      "sol_price_usd": 104.15,
+      "sol_price_source": "dexscreener",
+      "deployer": "CgtHRjZMRLJeZBDmiCMByw5zfE4aAtJHpCsA4gR94Jq2",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 45,
+        "same_bucket_open": 0,
+        "hot_open": 1,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 0.9,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.6,
+      "reject_rules": []
     }
   ],
   "trade_events": [
@@ -3337,17 +3407,91 @@
       "liq_collapse_flag": false,
       "peak_price_usd": 0.0001335,
       "trough_price_usd": 9.588e-05
+    },
+    {
+      "ts": "2026-10-23T05:29:31.770184+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "MEOWE",
+      "address": "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump",
+      "score": 75.0,
+      "components": {
+        "trend": 30,
+        "wash": 10.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 0.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 0.0001905,
+      "decision_price": 0.0001994,
+      "fill_price": 0.00019403464846259652,
+      "size_usd": 50.0,
+      "qty": 257685.9359715765,
+      "features": {
+        "symbol": "MEOWE",
+        "name": "Meowecoin",
+        "address": "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump",
+        "pair_address": "5iQ5n8Sir2xKpGDJYcem5VxW6HVqUF6rkVyYeMepLs6u",
+        "dex": "pumpswap",
+        "price_usd": 0.0001994,
+        "age_min": 101.6,
+        "liquidity_usd": 40515.61,
+        "fdv": 191676.0,
+        "market_cap": 191676.0,
+        "volume_5m": 16790.96,
+        "volume_1h": 339958.65,
+        "buys_5m": 145,
+        "sells_5m": 125,
+        "buys_1h": 3657,
+        "sells_1h": 2185,
+        "price_change_5m": 36.14,
+        "price_change_1h": 45.78,
+        "url": "https://dexscreener.com/solana/5iq5n8sir2xkpgdjycem5vxw6hvquf6rkvyyemepls6u",
+        "fetched_at": "2026-10-23T05:28:47.169928+00:00",
+        "deployer": "CgtHRjZMRLJeZBDmiCMByw5zfE4aAtJHpCsA4gR94Jq2"
+      },
+      "impact_pct_entry": 0.0186,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4166,
+      "cash_deducted_usd": 50.9166,
+      "est_round_trip_cost_pct": 7.38,
+      "failed_fill": false,
+      "rng_roll": 0.6401,
+      "sol_price_usd": 104.15,
+      "sol_price_source": "dexscreener",
+      "deployer": "CgtHRjZMRLJeZBDmiCMByw5zfE4aAtJHpCsA4gR94Jq2",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 45,
+        "same_bucket_open": 0,
+        "hot_open": 1,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 0.9,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.6,
+      "reject_rules": []
     }
   ],
   "history_files": {
-    "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": "history/2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump.json"
+    "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": "history/2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump.json",
+    "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": "history/FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump.json"
   },
   "swarm": {
-    "equity": 9259.87,
+    "equity": 9254.01,
     "balance": 8941.96,
     "starting_balance": 10000.0,
     "realized_pnl": -732.38,
-    "unrealized_pnl": -5.92,
+    "unrealized_pnl": -11.79,
     "open_count": 9,
     "pending_count": 0,
     "closed_count": 31,
@@ -3357,15 +3501,15 @@
     "top_open": [
       {
         "symbol": "zonki",
-        "pct_change": 39.02
+        "pct_change": 35.89
       },
       {
         "symbol": "POOT",
-        "pct_change": 29.99
+        "pct_change": 29.36
       },
       {
         "symbol": "MEOWE",
-        "pct_change": 26.58
+        "pct_change": 11.76
       },
       {
         "symbol": "Xingxing",
@@ -3373,7 +3517,7 @@
       },
       {
         "symbol": "GATO",
-        "pct_change": 1.81
+        "pct_change": 0.77
       }
     ]
   }
