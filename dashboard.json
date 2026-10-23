@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-23T20:56:39.663397+00:00",
+  "generated_at": "2026-10-23T20:58:23.840959+00:00",
   "scorer_version": "v3",
   "cost_model_version": "costs_v1",
   "config_hash": "8a8468bc9556",
   "regime": {
-    "regime_value": 0.95,
+    "regime_value": 0.85,
     "regime_state": "poor",
     "samples": 20,
     "effective_max_open": 2
@@ -23,27 +23,10 @@
     "address": "G2UvJsFKQhqck2hy5R6kanfgikKvyKnjBQv1iYYoAzwW",
     "symbol": "WIRE",
     "score": 72.0,
-    "price_usd": 1.727e-05,
+    "price_usd": 1.571e-05,
     "history_file": "history/G2UvJsFKQhqck2hy5R6kanfgikKvyKnjBQv1iYYoAzwW.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-23T20:54:53.139924+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "MISSED",
-      "address": "4qQLFBR1BXAacVeU8ZBY6kj2agh712r2RCHsSisqpump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-23T20:54:53.139950+00:00",
       "kind": "skip",
@@ -519,6 +502,17 @@
       "symbol": "beans",
       "address": "2EujF4gbqBa5kMkp7DjEXbRy4YgpHYDuMiHrLVUupump",
       "score": 0.0
+    },
+    {
+      "ts": "2026-10-23T20:58:22.957607+00:00",
+      "kind": "scan",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "tokens_scanned": 28,
+      "top_symbol": "WIRE",
+      "top_score": 67.0,
+      "above_threshold": 0
     }
   ],
   "trade_events": [
@@ -7916,11 +7910,11 @@
     "G2UvJsFKQhqck2hy5R6kanfgikKvyKnjBQv1iYYoAzwW": "history/G2UvJsFKQhqck2hy5R6kanfgikKvyKnjBQv1iYYoAzwW.json"
   },
   "swarm": {
-    "equity": 8063.75,
+    "equity": 8063.73,
     "balance": 8030.49,
     "starting_balance": 10000.0,
     "realized_pnl": -1935.29,
-    "unrealized_pnl": 2.71,
+    "unrealized_pnl": 2.69,
     "open_count": 1,
     "pending_count": 0,
     "closed_count": 133,
@@ -7930,7 +7924,7 @@
     "top_open": [
       {
         "symbol": "CTA",
-        "pct_change": 13.09
+        "pct_change": 12.99
       }
     ]
   }
