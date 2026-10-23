@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-23T09:57:16.380346+00:00",
+  "generated_at": "2026-10-23T09:58:29.221642+00:00",
   "scorer_version": "v2",
   "cost_model_version": "costs_v1",
   "config_hash": "c90e7135b2e6",
   "regime": {
-    "regime_value": 0.8,
+    "regime_value": 0.9,
     "regime_state": "poor",
     "samples": 20,
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
-  "balance": 491.53,
-  "equity": 521.69,
+  "balance": 440.61,
+  "equity": 526.09,
   "realized_pnl": -477.46,
-  "unrealized_pnl": -0.39,
-  "pnl_pct": -47.83,
+  "unrealized_pnl": 4.02,
+  "pnl_pct": -47.39,
   "wins": 8,
   "losses": 37,
   "trades_closed": 20,
@@ -31,6 +31,19 @@
       "sold_frac": 0.4,
       "ladder_stage": "tp1_done_awaiting_tp2",
       "history_file": "history/FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump.json"
+    },
+    {
+      "address": "FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump",
+      "symbol": "cyber",
+      "entry_price": 0.0001951,
+      "current_price": 0.0002199,
+      "pct_change": 12.71,
+      "entry_score": 85.0,
+      "opened_at": "2026-10-23T09:57:35.838513+00:00",
+      "peak_price": 0.0001951,
+      "sold_frac": 0.0,
+      "ladder_stage": "awaiting_tp1",
+      "history_file": "history/FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump.json"
     }
   ],
   "top_candidate": {
@@ -41,23 +54,6 @@
     "history_file": "history/FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-23T09:46:33.622211+00:00",
-      "kind": "skip",
-      "scorer_version": "v2",
-      "cost_model_version": "costs_v1",
-      "config_hash": "c90e7135b2e6",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "PSI",
-      "address": "2WXzjH3ARgjYaNsoe2A5Reqy7EuefurCmxAw3hb3pump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-23T09:46:33.622246+00:00",
       "kind": "skip",
@@ -530,6 +526,79 @@
       "symbol": "POOT",
       "address": "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
       "score": 0.0
+    },
+    {
+      "ts": "2026-10-23T09:57:35.839093+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "cyber",
+      "address": "FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump",
+      "score": 85.0,
+      "components": {
+        "trend": 30,
+        "wash": 20.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 0.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 0.0001951,
+      "decision_price": 0.000201,
+      "fill_price": 0.0001987403933033273,
+      "size_usd": 50.0,
+      "qty": 251584.4875263357,
+      "features": {
+        "symbol": "cyber",
+        "name": "cyber",
+        "address": "FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump",
+        "pair_address": "HVngHmsWnk1piJUytDYbQx1Qch2Nm3MbKHRyJttpBk5M",
+        "dex": "pumpswap",
+        "price_usd": 0.000201,
+        "age_min": 11.6,
+        "liquidity_usd": 37699.53,
+        "fdv": 201043.0,
+        "market_cap": 201043.0,
+        "volume_5m": 138524.17,
+        "volume_1h": 313213.51,
+        "buys_5m": 1166,
+        "sells_5m": 512,
+        "buys_1h": 2570,
+        "sells_1h": 1144,
+        "price_change_5m": 11.08,
+        "price_change_1h": 358.0,
+        "url": "https://dexscreener.com/solana/hvnghmswnk1pijuytdybqx1qch2nm3mbkhryjttpbk5m",
+        "fetched_at": "2026-10-23T09:56:06.265045+00:00",
+        "deployer": "BJRVkrMUdFaxNGCJVLXbnTuD9SgV9SHLagick3bPnxQ6"
+      },
+      "impact_pct_entry": 0.0187,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4165,
+      "cash_deducted_usd": 50.9165,
+      "est_round_trip_cost_pct": 7.4,
+      "failed_fill": false,
+      "rng_roll": 0.804,
+      "sol_price_usd": 104.12,
+      "sol_price_source": "dexscreener",
+      "deployer": "BJRVkrMUdFaxNGCJVLXbnTuD9SgV9SHLagick3bPnxQ6",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 345,
+        "same_bucket_open": 0,
+        "hot_open": 1,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 0.85,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.4,
+      "reject_rules": []
     }
   ],
   "trade_events": [
@@ -4468,19 +4537,93 @@
       "liq_collapse_flag": true,
       "peak_price_usd": 0.0002833,
       "trough_price_usd": 2.933e-06
+    },
+    {
+      "ts": "2026-10-23T09:57:35.839093+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "cyber",
+      "address": "FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump",
+      "score": 85.0,
+      "components": {
+        "trend": 30,
+        "wash": 20.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 0.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 0.0001951,
+      "decision_price": 0.000201,
+      "fill_price": 0.0001987403933033273,
+      "size_usd": 50.0,
+      "qty": 251584.4875263357,
+      "features": {
+        "symbol": "cyber",
+        "name": "cyber",
+        "address": "FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump",
+        "pair_address": "HVngHmsWnk1piJUytDYbQx1Qch2Nm3MbKHRyJttpBk5M",
+        "dex": "pumpswap",
+        "price_usd": 0.000201,
+        "age_min": 11.6,
+        "liquidity_usd": 37699.53,
+        "fdv": 201043.0,
+        "market_cap": 201043.0,
+        "volume_5m": 138524.17,
+        "volume_1h": 313213.51,
+        "buys_5m": 1166,
+        "sells_5m": 512,
+        "buys_1h": 2570,
+        "sells_1h": 1144,
+        "price_change_5m": 11.08,
+        "price_change_1h": 358.0,
+        "url": "https://dexscreener.com/solana/hvnghmswnk1pijuytdybqx1qch2nm3mbkhryjttpbk5m",
+        "fetched_at": "2026-10-23T09:56:06.265045+00:00",
+        "deployer": "BJRVkrMUdFaxNGCJVLXbnTuD9SgV9SHLagick3bPnxQ6"
+      },
+      "impact_pct_entry": 0.0187,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4165,
+      "cash_deducted_usd": 50.9165,
+      "est_round_trip_cost_pct": 7.4,
+      "failed_fill": false,
+      "rng_roll": 0.804,
+      "sol_price_usd": 104.12,
+      "sol_price_source": "dexscreener",
+      "deployer": "BJRVkrMUdFaxNGCJVLXbnTuD9SgV9SHLagick3bPnxQ6",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 345,
+        "same_bucket_open": 0,
+        "hot_open": 1,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 0.85,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.4,
+      "reject_rules": []
     }
   ],
   "history_files": {
+    "FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump": "history/FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump.json",
     "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": "history/FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump.json"
   },
   "swarm": {
-    "equity": 8914.68,
-    "balance": 8599.67,
+    "equity": 8906.55,
+    "balance": 8548.75,
     "starting_balance": 10000.0,
     "realized_pnl": -1082.35,
-    "unrealized_pnl": -0.69,
-    "open_count": 9,
-    "pending_count": 1,
+    "unrealized_pnl": -8.81,
+    "open_count": 10,
+    "pending_count": 0,
     "closed_count": 56,
     "wins": 8,
     "losses": 48,
@@ -4488,23 +4631,23 @@
     "top_open": [
       {
         "symbol": "ZERO",
-        "pct_change": 38.36
+        "pct_change": 40.51
+      },
+      {
+        "symbol": "GUST",
+        "pct_change": 9.0
       },
       {
         "symbol": "POKECOIN",
         "pct_change": 8.89
       },
       {
-        "symbol": "GUST",
-        "pct_change": 8.76
-      },
-      {
         "symbol": "MEOWE",
         "pct_change": 7.52
       },
       {
-        "symbol": "WOMB",
-        "pct_change": 0.24
+        "symbol": "cyber",
+        "pct_change": 6.13
       }
     ]
   }
