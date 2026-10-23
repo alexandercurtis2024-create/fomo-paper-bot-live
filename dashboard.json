@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T17:06:04.830425+00:00",
+  "generated_at": "2026-10-23T17:07:43.976188+00:00",
   "scorer_version": "v2",
   "cost_model_version": "costs_v1",
   "config_hash": "c90e7135b2e6",
@@ -10,11 +10,11 @@
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
-  "balance": 476.67,
-  "equity": 507.9,
+  "balance": 425.75,
+  "equity": 524.84,
   "realized_pnl": -492.27,
-  "unrealized_pnl": 0.68,
-  "pnl_pct": -49.21,
+  "unrealized_pnl": 17.62,
+  "pnl_pct": -47.52,
   "wins": 26,
   "losses": 49,
   "trades_closed": 33,
@@ -23,40 +23,37 @@
       "address": "AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump",
       "symbol": "MCRIBINU",
       "entry_price": 0.0003221,
-      "current_price": 0.0003414,
-      "pct_change": 5.99,
+      "current_price": 0.0003258,
+      "pct_change": 1.15,
       "entry_score": 85.0,
       "opened_at": "2026-10-23T16:44:17.895723+00:00",
       "peak_price": 0.0003406,
       "sold_frac": 0.4,
       "ladder_stage": "tp1_done_awaiting_tp2",
       "history_file": "history/AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump.json"
+    },
+    {
+      "address": "6j62BLyk9PUR8MYii27owsJvSDPAbK7MmQnjwxHPFqen",
+      "symbol": "FUN",
+      "entry_price": 7.455e-05,
+      "current_price": 0.0001053,
+      "pct_change": 41.25,
+      "entry_score": 80.0,
+      "opened_at": "2026-10-23T17:06:16.017799+00:00",
+      "peak_price": 7.455e-05,
+      "sold_frac": 0.0,
+      "ladder_stage": "awaiting_tp1",
+      "history_file": "history/6j62BLyk9PUR8MYii27owsJvSDPAbK7MmQnjwxHPFqen.json"
     }
   ],
   "top_candidate": {
     "address": "AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump",
     "symbol": "MCRIBINU",
     "score": 83.0,
-    "price_usd": 0.0003414,
+    "price_usd": 0.0003258,
     "history_file": "history/AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-23T17:04:20.753413+00:00",
-      "kind": "skip",
-      "scorer_version": "v2",
-      "cost_model_version": "costs_v1",
-      "config_hash": "c90e7135b2e6",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "ber",
-      "address": "BVYgGhh1Xp8aehnZ2HiEaSrmh3WrRZFRkxNmFzCUpump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-23T17:04:20.753437+00:00",
       "kind": "skip",
@@ -522,6 +519,75 @@
       "symbol": "Pepper",
       "address": "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump",
       "score": 0.0
+    },
+    {
+      "ts": "2026-10-23T17:06:16.017821+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "FUN",
+      "address": "6j62BLyk9PUR8MYii27owsJvSDPAbK7MmQnjwxHPFqen",
+      "score": 80.0,
+      "components": {
+        "trend": 30,
+        "wash": 0.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 15.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 7.455e-05,
+      "decision_price": 7.261e-05,
+      "fill_price": 7.598564385733306e-05,
+      "size_usd": 50.0,
+      "qty": 658019.0344096782,
+      "features": {
+        "symbol": "FUN",
+        "name": "pumpbutfun",
+        "address": "6j62BLyk9PUR8MYii27owsJvSDPAbK7MmQnjwxHPFqen",
+        "pair_address": "Dubx5Uk5DhizNAXyXZrRUbfrfusGrzx1LqusuEqbFTuu",
+        "dex": "meteora",
+        "price_usd": 7.261e-05,
+        "age_min": 9.5,
+        "liquidity_usd": 27088.76,
+        "fdv": 72408.0,
+        "market_cap": 72408.0,
+        "volume_5m": 60238.93,
+        "volume_1h": 79766.7,
+        "buys_5m": 403,
+        "sells_5m": 323,
+        "buys_1h": 551,
+        "sells_1h": 432,
+        "price_change_5m": 18.79,
+        "price_change_1h": 20.68,
+        "url": "https://dexscreener.com/solana/dubx5uk5dhiznaxyxzrrubfrfusgrzx1lqusueqbftuu",
+        "fetched_at": "2026-10-23T17:05:24.830040+00:00",
+        "deployer": null
+      },
+      "impact_pct_entry": 0.0193,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4179,
+      "cash_deducted_usd": 50.9179,
+      "est_round_trip_cost_pct": 7.52,
+      "failed_fill": false,
+      "rng_roll": 0.3907,
+      "sol_price_usd": 104.48,
+      "sol_price_source": "dexscreener",
+      "deployer": null,
+      "deployer_history": null,
+      "portfolio_flags": {
+        "regime_bucket": 15,
+        "same_bucket_open": 0,
+        "hot_open": 1,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 1.0,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.3,
+      "reject_rules": []
     }
   ],
   "trade_events": [
@@ -6759,19 +6825,89 @@
       "liq_collapse_flag": false,
       "peak_price_usd": 0.0003339,
       "trough_price_usd": 0.0002849
+    },
+    {
+      "ts": "2026-10-23T17:06:16.017821+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "FUN",
+      "address": "6j62BLyk9PUR8MYii27owsJvSDPAbK7MmQnjwxHPFqen",
+      "score": 80.0,
+      "components": {
+        "trend": 30,
+        "wash": 0.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 15.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 7.455e-05,
+      "decision_price": 7.261e-05,
+      "fill_price": 7.598564385733306e-05,
+      "size_usd": 50.0,
+      "qty": 658019.0344096782,
+      "features": {
+        "symbol": "FUN",
+        "name": "pumpbutfun",
+        "address": "6j62BLyk9PUR8MYii27owsJvSDPAbK7MmQnjwxHPFqen",
+        "pair_address": "Dubx5Uk5DhizNAXyXZrRUbfrfusGrzx1LqusuEqbFTuu",
+        "dex": "meteora",
+        "price_usd": 7.261e-05,
+        "age_min": 9.5,
+        "liquidity_usd": 27088.76,
+        "fdv": 72408.0,
+        "market_cap": 72408.0,
+        "volume_5m": 60238.93,
+        "volume_1h": 79766.7,
+        "buys_5m": 403,
+        "sells_5m": 323,
+        "buys_1h": 551,
+        "sells_1h": 432,
+        "price_change_5m": 18.79,
+        "price_change_1h": 20.68,
+        "url": "https://dexscreener.com/solana/dubx5uk5dhiznaxyxzrrubfrfusgrzx1lqusueqbftuu",
+        "fetched_at": "2026-10-23T17:05:24.830040+00:00",
+        "deployer": null
+      },
+      "impact_pct_entry": 0.0193,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4179,
+      "cash_deducted_usd": 50.9179,
+      "est_round_trip_cost_pct": 7.52,
+      "failed_fill": false,
+      "rng_roll": 0.3907,
+      "sol_price_usd": 104.48,
+      "sol_price_source": "dexscreener",
+      "deployer": null,
+      "deployer_history": null,
+      "portfolio_flags": {
+        "regime_bucket": 15,
+        "same_bucket_open": 0,
+        "hot_open": 1,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 1.0,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.3,
+      "reject_rules": []
     }
   ],
   "history_files": {
+    "6j62BLyk9PUR8MYii27owsJvSDPAbK7MmQnjwxHPFqen": "history/6j62BLyk9PUR8MYii27owsJvSDPAbK7MmQnjwxHPFqen.json",
     "AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": "history/AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump.json"
   },
   "swarm": {
-    "equity": 8266.83,
-    "balance": 8165.88,
+    "equity": 8276.46,
+    "balance": 8064.04,
     "starting_balance": 10000.0,
     "realized_pnl": -1738.77,
-    "unrealized_pnl": 9.29,
-    "open_count": 3,
-    "pending_count": 2,
+    "unrealized_pnl": 18.93,
+    "open_count": 5,
+    "pending_count": 0,
     "closed_count": 113,
     "wins": 20,
     "losses": 93,
@@ -6779,15 +6915,23 @@
     "top_open": [
       {
         "symbol": "RSN",
-        "pct_change": 45.14
+        "pct_change": 46.19
+      },
+      {
+        "symbol": "FUN",
+        "pct_change": 41.25
       },
       {
         "symbol": "MCRIBINU",
-        "pct_change": 7.77
+        "pct_change": 2.84
+      },
+      {
+        "symbol": "SAM",
+        "pct_change": -5.16
       },
       {
         "symbol": "AIB",
-        "pct_change": -9.89
+        "pct_change": -20.7
       }
     ]
   }
