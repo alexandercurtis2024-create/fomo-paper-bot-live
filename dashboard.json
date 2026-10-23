@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T08:23:41.468374+00:00",
+  "generated_at": "2026-10-23T08:24:37.983391+00:00",
   "scorer_version": "v2",
   "cost_model_version": "costs_v1",
   "config_hash": "c90e7135b2e6",
@@ -10,11 +10,11 @@
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
-  "balance": 548.66,
-  "equity": 586.79,
+  "balance": 497.74,
+  "equity": 580.27,
   "realized_pnl": -420.34,
-  "unrealized_pnl": 7.58,
-  "pnl_pct": -41.32,
+  "unrealized_pnl": 1.06,
+  "pnl_pct": -41.97,
   "wins": 6,
   "losses": 33,
   "trades_closed": 16,
@@ -31,33 +31,29 @@
       "sold_frac": 0.4,
       "ladder_stage": "tp1_done_awaiting_tp2",
       "history_file": "history/GADj8JQ8iQLQD5S6ScvncJWmGs7PkwHnXsBrEUns6ue5.json"
+    },
+    {
+      "address": "7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump",
+      "symbol": "MICHIKO",
+      "entry_price": 0.0001211,
+      "current_price": 0.0001096,
+      "pct_change": -9.5,
+      "entry_score": 75.0,
+      "opened_at": "2026-10-23T08:24:01.902649+00:00",
+      "peak_price": 0.0001211,
+      "sold_frac": 0.0,
+      "ladder_stage": "awaiting_tp1",
+      "history_file": "history/7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump.json"
     }
   ],
   "top_candidate": {
     "address": "7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump",
     "symbol": "MICHIKO",
     "score": 75.0,
-    "price_usd": 0.0001087,
+    "price_usd": 0.0001096,
     "history_file": "history/7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-23T08:22:10.136550+00:00",
-      "kind": "skip",
-      "scorer_version": "v2",
-      "cost_model_version": "costs_v1",
-      "config_hash": "c90e7135b2e6",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (2886 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "token",
-      "address": "7w4Tkmfrk7Bbqp2g1D1KVyKu2k5GerLb3M8aRcBQpump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-23T08:22:10.136581+00:00",
       "kind": "skip",
@@ -528,6 +524,79 @@
       "symbol": "BRVC",
       "address": "DJeT2vcub6yEx6cCceKFAGKQY7YCWiYfakPdkAFNpump",
       "score": 0.0
+    },
+    {
+      "ts": "2026-10-23T08:24:01.903263+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "MICHIKO",
+      "address": "7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump",
+      "score": 75.0,
+      "components": {
+        "trend": 30,
+        "wash": 10.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 0.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 0.0001211,
+      "decision_price": 0.0001087,
+      "fill_price": 0.00012341013645728732,
+      "size_usd": 50.0,
+      "qty": 405153.10520951555,
+      "features": {
+        "symbol": "MICHIKO",
+        "name": "Michiko Malandro",
+        "address": "7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump",
+        "pair_address": "Fu6cZ5Y9PpNcRAb5Urk7ozaxMgPbjx8C5SQFCb5MW2zM",
+        "dex": "pumpswap",
+        "price_usd": 0.0001087,
+        "age_min": 12.7,
+        "liquidity_usd": 28464.27,
+        "fdv": 108716.0,
+        "market_cap": 108716.0,
+        "volume_5m": 50024.17,
+        "volume_1h": 168773.2,
+        "buys_5m": 481,
+        "sells_5m": 307,
+        "buys_1h": 2035,
+        "sells_1h": 1061,
+        "price_change_5m": 14.6,
+        "price_change_1h": 147.0,
+        "url": "https://dexscreener.com/solana/fu6cz5y9ppncrab5urk7ozaxmgpbjx8c5sqfcb5mw2zm",
+        "fetched_at": "2026-10-23T08:23:11.480682+00:00",
+        "deployer": "311xQmP5FEf6uHt7d3bZG7ES1J7MQb9foYC11iAKsWfb"
+      },
+      "impact_pct_entry": 0.0191,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4184,
+      "cash_deducted_usd": 50.9184,
+      "est_round_trip_cost_pct": 7.49,
+      "failed_fill": false,
+      "rng_roll": 0.3839,
+      "sol_price_usd": 104.61,
+      "sol_price_source": "dexscreener",
+      "deployer": "311xQmP5FEf6uHt7d3bZG7ES1J7MQb9foYC11iAKsWfb",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 135,
+        "same_bucket_open": 0,
+        "hot_open": 0,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 0.95,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.1,
+      "reject_rules": []
     }
   ],
   "trade_events": [
@@ -3904,6 +3973,79 @@
       "liq_collapse_flag": false,
       "peak_price_usd": 2.253e-05,
       "trough_price_usd": 1.778e-05
+    },
+    {
+      "ts": "2026-10-23T08:24:01.903263+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "MICHIKO",
+      "address": "7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump",
+      "score": 75.0,
+      "components": {
+        "trend": 30,
+        "wash": 10.0,
+        "liquidity_quality": 20.0,
+        "momentum_residual": 0.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 0.0001211,
+      "decision_price": 0.0001087,
+      "fill_price": 0.00012341013645728732,
+      "size_usd": 50.0,
+      "qty": 405153.10520951555,
+      "features": {
+        "symbol": "MICHIKO",
+        "name": "Michiko Malandro",
+        "address": "7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump",
+        "pair_address": "Fu6cZ5Y9PpNcRAb5Urk7ozaxMgPbjx8C5SQFCb5MW2zM",
+        "dex": "pumpswap",
+        "price_usd": 0.0001087,
+        "age_min": 12.7,
+        "liquidity_usd": 28464.27,
+        "fdv": 108716.0,
+        "market_cap": 108716.0,
+        "volume_5m": 50024.17,
+        "volume_1h": 168773.2,
+        "buys_5m": 481,
+        "sells_5m": 307,
+        "buys_1h": 2035,
+        "sells_1h": 1061,
+        "price_change_5m": 14.6,
+        "price_change_1h": 147.0,
+        "url": "https://dexscreener.com/solana/fu6cz5y9ppncrab5urk7ozaxmgpbjx8c5sqfcb5mw2zm",
+        "fetched_at": "2026-10-23T08:23:11.480682+00:00",
+        "deployer": "311xQmP5FEf6uHt7d3bZG7ES1J7MQb9foYC11iAKsWfb"
+      },
+      "impact_pct_entry": 0.0191,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4184,
+      "cash_deducted_usd": 50.9184,
+      "est_round_trip_cost_pct": 7.49,
+      "failed_fill": false,
+      "rng_roll": 0.3839,
+      "sol_price_usd": 104.61,
+      "sol_price_source": "dexscreener",
+      "deployer": "311xQmP5FEf6uHt7d3bZG7ES1J7MQb9foYC11iAKsWfb",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 135,
+        "same_bucket_open": 0,
+        "hot_open": 0,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 0.95,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.1,
+      "reject_rules": []
     }
   ],
   "history_files": {
@@ -3911,13 +4053,13 @@
     "GADj8JQ8iQLQD5S6ScvncJWmGs7PkwHnXsBrEUns6ue5": "history/GADj8JQ8iQLQD5S6ScvncJWmGs7PkwHnXsBrEUns6ue5.json"
   },
   "swarm": {
-    "equity": 9113.77,
-    "balance": 8892.2,
+    "equity": 9106.64,
+    "balance": 8841.28,
     "starting_balance": 10000.0,
     "realized_pnl": -903.48,
-    "unrealized_pnl": 19.93,
-    "open_count": 5,
-    "pending_count": 1,
+    "unrealized_pnl": 12.8,
+    "open_count": 6,
+    "pending_count": 0,
     "closed_count": 45,
     "wins": 5,
     "losses": 40,
@@ -3929,7 +4071,7 @@
       },
       {
         "symbol": "GUST",
-        "pct_change": 37.1
+        "pct_change": 37.51
       },
       {
         "symbol": "PHP",
@@ -3940,8 +4082,8 @@
         "pct_change": -2.48
       },
       {
-        "symbol": "POOT",
-        "pct_change": -8.84
+        "symbol": "MICHIKO",
+        "pct_change": -9.5
       }
     ]
   }
