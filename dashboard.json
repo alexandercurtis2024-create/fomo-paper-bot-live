@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:35:39.985636+00:00",
+  "generated_at": "2026-10-23T07:36:25.075558+00:00",
   "scorer_version": "v2",
   "cost_model_version": "costs_v1",
   "config_hash": "c90e7135b2e6",
@@ -10,11 +10,11 @@
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
-  "balance": 565.5,
-  "equity": 623.04,
+  "balance": 514.59,
+  "equity": 610.37,
   "realized_pnl": -383.14,
-  "unrealized_pnl": 6.62,
-  "pnl_pct": -37.7,
+  "unrealized_pnl": -6.05,
+  "pnl_pct": -38.96,
   "wins": 5,
   "losses": 32,
   "trades_closed": 15,
@@ -31,32 +31,29 @@
       "sold_frac": 0.0,
       "ladder_stage": "awaiting_tp1",
       "history_file": "history/GADj8JQ8iQLQD5S6ScvncJWmGs7PkwHnXsBrEUns6ue5.json"
+    },
+    {
+      "address": "45yNndrGvmzKU4eZeo7kDZm4TRr8Dkg9C8EpJcfNpump",
+      "symbol": "Rosalind",
+      "entry_price": 0.0002521,
+      "current_price": 0.000197,
+      "pct_change": -21.86,
+      "entry_score": 75.0,
+      "opened_at": "2026-10-23T07:35:57.497378+00:00",
+      "peak_price": 0.0002521,
+      "sold_frac": 0.0,
+      "ladder_stage": "awaiting_tp1",
+      "history_file": "history/45yNndrGvmzKU4eZeo7kDZm4TRr8Dkg9C8EpJcfNpump.json"
     }
   ],
   "top_candidate": {
     "address": "45yNndrGvmzKU4eZeo7kDZm4TRr8Dkg9C8EpJcfNpump",
     "symbol": "Rosalind",
     "score": 75.0,
-    "price_usd": 0.0002521,
+    "price_usd": 0.000197,
     "history_file": "history/45yNndrGvmzKU4eZeo7kDZm4TRr8Dkg9C8EpJcfNpump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-23T07:34:07.823689+00:00",
-      "kind": "skip",
-      "scorer_version": "v2",
-      "cost_model_version": "costs_v1",
-      "config_hash": "c90e7135b2e6",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (480 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "ALICE",
-      "address": "Bngb8iUrSuRCsmKRzVu44xmRMp2NB2LkEEyw6UAUTRiX",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-23T07:34:07.823714+00:00",
       "kind": "skip",
@@ -529,6 +526,79 @@
       "symbol": "BRVC",
       "address": "DJeT2vcub6yEx6cCceKFAGKQY7YCWiYfakPdkAFNpump",
       "score": 0.0
+    },
+    {
+      "ts": "2026-10-23T07:35:57.497753+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "Rosalind",
+      "address": "45yNndrGvmzKU4eZeo7kDZm4TRr8Dkg9C8EpJcfNpump",
+      "score": 75.0,
+      "components": {
+        "trend": 30,
+        "wash": 5.0,
+        "liquidity_quality": 10.0,
+        "momentum_residual": 15.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 0.0002521,
+      "decision_price": 0.0002521,
+      "fill_price": 0.00025754342825491867,
+      "size_usd": 50.0,
+      "qty": 194142.0145673823,
+      "features": {
+        "symbol": "Rosalind",
+        "name": "GPT-Rosalind",
+        "address": "45yNndrGvmzKU4eZeo7kDZm4TRr8Dkg9C8EpJcfNpump",
+        "pair_address": "5Si8XDpmitW4fWfmQwNvQW6KUeazEgfrYc7KDqPWd8JM",
+        "dex": "meteora",
+        "price_usd": 0.0002521,
+        "age_min": 88.3,
+        "liquidity_usd": 11609.68,
+        "fdv": 252138.0,
+        "market_cap": 252138.0,
+        "volume_5m": 4340.67,
+        "volume_1h": 20902.07,
+        "buys_5m": 24,
+        "sells_5m": 20,
+        "buys_1h": 406,
+        "sells_1h": 277,
+        "price_change_5m": 6.8,
+        "price_change_1h": 266.0,
+        "url": "https://dexscreener.com/solana/5si8xdpmitw4fwfmqwnvqw6kueazegfryc7kdqpwd8jm",
+        "fetched_at": "2026-10-23T07:35:15.520727+00:00",
+        "deployer": "E7jjkFhpYZhmQ8ZYYFeGmrE2fEzbbJ6ZjRrEWHB2M8M3"
+      },
+      "impact_pct_entry": 0.0216,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4125,
+      "cash_deducted_usd": 50.9125,
+      "est_round_trip_cost_pct": 7.97,
+      "failed_fill": false,
+      "rng_roll": 0.8187,
+      "sol_price_usd": 103.12,
+      "sol_price_source": "dexscreener",
+      "deployer": "E7jjkFhpYZhmQ8ZYYFeGmrE2fEzbbJ6ZjRrEWHB2M8M3",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 255,
+        "same_bucket_open": 0,
+        "hot_open": 1,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 1.0,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.2,
+      "reject_rules": []
     }
   ],
   "trade_events": [
@@ -3742,6 +3812,79 @@
       "liq_collapse_flag": false,
       "peak_price_usd": 0.000274,
       "trough_price_usd": 8.435e-05
+    },
+    {
+      "ts": "2026-10-23T07:35:57.497753+00:00",
+      "kind": "entry",
+      "scorer_version": "v2",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c90e7135b2e6",
+      "symbol": "Rosalind",
+      "address": "45yNndrGvmzKU4eZeo7kDZm4TRr8Dkg9C8EpJcfNpump",
+      "score": 75.0,
+      "components": {
+        "trend": 30,
+        "wash": 5.0,
+        "liquidity_quality": 10.0,
+        "momentum_residual": 15.0,
+        "age": 10.0,
+        "fdv_sanity": 5.0
+      },
+      "price": 0.0002521,
+      "decision_price": 0.0002521,
+      "fill_price": 0.00025754342825491867,
+      "size_usd": 50.0,
+      "qty": 194142.0145673823,
+      "features": {
+        "symbol": "Rosalind",
+        "name": "GPT-Rosalind",
+        "address": "45yNndrGvmzKU4eZeo7kDZm4TRr8Dkg9C8EpJcfNpump",
+        "pair_address": "5Si8XDpmitW4fWfmQwNvQW6KUeazEgfrYc7KDqPWd8JM",
+        "dex": "meteora",
+        "price_usd": 0.0002521,
+        "age_min": 88.3,
+        "liquidity_usd": 11609.68,
+        "fdv": 252138.0,
+        "market_cap": 252138.0,
+        "volume_5m": 4340.67,
+        "volume_1h": 20902.07,
+        "buys_5m": 24,
+        "sells_5m": 20,
+        "buys_1h": 406,
+        "sells_1h": 277,
+        "price_change_5m": 6.8,
+        "price_change_1h": 266.0,
+        "url": "https://dexscreener.com/solana/5si8xdpmitw4fwfmqwnvqw6kueazegfryc7kdqpwd8jm",
+        "fetched_at": "2026-10-23T07:35:15.520727+00:00",
+        "deployer": "E7jjkFhpYZhmQ8ZYYFeGmrE2fEzbbJ6ZjRrEWHB2M8M3"
+      },
+      "impact_pct_entry": 0.0216,
+      "dex_fee_usd_entry": 0.5,
+      "network_cost_usd_entry": 0.4125,
+      "cash_deducted_usd": 50.9125,
+      "est_round_trip_cost_pct": 7.97,
+      "failed_fill": false,
+      "rng_roll": 0.8187,
+      "sol_price_usd": 103.12,
+      "sol_price_source": "dexscreener",
+      "deployer": "E7jjkFhpYZhmQ8ZYYFeGmrE2fEzbbJ6ZjRrEWHB2M8M3",
+      "deployer_history": {
+        "tokens_seen": 1,
+        "fast_failures": 0,
+        "blacklisted": false
+      },
+      "portfolio_flags": {
+        "regime_bucket": 255,
+        "same_bucket_open": 0,
+        "hot_open": 1,
+        "regime_would_refuse": false,
+        "regime_freeze": false,
+        "notional_cap_would_apply": false
+      },
+      "regime_value": 1.0,
+      "regime_state": "poor",
+      "entry_delay_actual_s": 20.2,
+      "reject_rules": []
     }
   ],
   "history_files": {
@@ -3749,11 +3892,11 @@
     "GADj8JQ8iQLQD5S6ScvncJWmGs7PkwHnXsBrEUns6ue5": "history/GADj8JQ8iQLQD5S6ScvncJWmGs7PkwHnXsBrEUns6ue5.json"
   },
   "swarm": {
-    "equity": 9136.83,
+    "equity": 9126.91,
     "balance": 8898.03,
     "starting_balance": 10000.0,
     "realized_pnl": -885.85,
-    "unrealized_pnl": 24.94,
+    "unrealized_pnl": 15.02,
     "open_count": 5,
     "pending_count": 0,
     "closed_count": 43,
@@ -3763,15 +3906,11 @@
     "top_open": [
       {
         "symbol": "ogkimchi",
-        "pct_change": 54.1
+        "pct_change": 59.36
       },
       {
         "symbol": "POKECOIN",
         "pct_change": 35.96
-      },
-      {
-        "symbol": "Rosalind",
-        "pct_change": 4.65
       },
       {
         "symbol": "PHP",
@@ -3779,7 +3918,11 @@
       },
       {
         "symbol": "POOT",
-        "pct_change": -9.97
+        "pct_change": -10.93
+      },
+      {
+        "symbol": "Rosalind",
+        "pct_change": -18.22
       }
     ]
   }
