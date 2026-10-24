@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T11:02:56.834030+00:00",
+  "generated_at": "2026-10-24T11:06:37.792355+00:00",
   "scorer_version": "v3",
   "cost_model_version": "costs_v1",
   "config_hash": "8a8468bc9556",
@@ -10,39 +10,25 @@
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
-  "balance": 526.85,
-  "equity": 551.35,
-  "realized_pnl": -442.1,
-  "unrealized_pnl": -6.05,
-  "pnl_pct": -44.87,
+  "balance": 545.34,
+  "equity": 545.34,
+  "realized_pnl": -454.15,
+  "unrealized_pnl": 0.0,
+  "pnl_pct": -45.47,
   "wins": 39,
-  "losses": 61,
-  "trades_closed": 44,
-  "open_positions": [
-    {
-      "address": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
-      "symbol": "COIL",
-      "entry_price": 0.0001287,
-      "current_price": 0.0001071,
-      "pct_change": -16.78,
-      "entry_score": 81.5,
-      "opened_at": "2026-10-24T09:54:56.400961+00:00",
-      "peak_price": 0.0001824,
-      "sold_frac": 0.4,
-      "ladder_stage": "tp1_done_awaiting_tp2",
-      "history_file": "history/Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump.json"
-    }
-  ],
+  "losses": 62,
+  "trades_closed": 45,
+  "open_positions": [],
   "top_candidate": {
     "address": "BzA6JBKgH8qK3XzBpXUiF283jd1k7yCKzwJEiEFAhc68",
     "symbol": "SLOPCOIN",
-    "score": 76.8,
-    "price_usd": 9.004e-05,
+    "score": 80.0,
+    "price_usd": 9.566e-05,
     "history_file": "history/BzA6JBKgH8qK3XzBpXUiF283jd1k7yCKzwJEiEFAhc68.json"
   },
   "recent_events": [
     {
-      "ts": "2026-10-24T11:01:15.614006+00:00",
+      "ts": "2026-10-24T11:04:21.612003+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -58,7 +44,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:01:15.614223+00:00",
+      "ts": "2026-10-24T11:04:21.612104+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -74,7 +60,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:01:15.614335+00:00",
+      "ts": "2026-10-24T11:04:21.612137+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -90,7 +76,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:01:15.614442+00:00",
+      "ts": "2026-10-24T11:04:21.612163+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -106,13 +92,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:01:15.614597+00:00",
+      "ts": "2026-10-24T11:04:21.612196+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-27.2% < -15%)",
+      "detail": "downtrend_h1 (-38.5% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
@@ -122,7 +108,49 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:01:15.614630+00:00",
+      "ts": "2026-10-24T11:05:46.338304+00:00",
+      "kind": "scan",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "tokens_scanned": 30,
+      "top_symbol": "SLOPCOIN",
+      "top_score": 80.0,
+      "above_threshold": 1
+    },
+    {
+      "ts": "2026-10-24T11:05:46.783521+00:00",
+      "kind": "entry_refused_cost",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "symbol": "SLOPCOIN",
+      "address": "BzA6JBKgH8qK3XzBpXUiF283jd1k7yCKzwJEiEFAhc68",
+      "score": 80.0,
+      "refusal_reason": "liq_below_entry_min",
+      "reject_rules": [
+        "liq_below_entry_min",
+        "liq_below_entry_min"
+      ],
+      "est_round_trip_cost_pct": 7.52,
+      "impact_pct_entry_est": 0.0195,
+      "impact_pct_exit_est": 0.0195,
+      "dex_fee_usd_est": 1.0,
+      "network_cost_usd_est": 0.813,
+      "total_cost_usd_est": 3.7606,
+      "liq_usd": 24961.54,
+      "notional_usd": 50.0,
+      "threshold_pct": 18.0,
+      "min_notional_usd": 50.0,
+      "deployer": "9N4iTvkvvn8gHVZC3QdhNoRobqpTZeVoPebCoT9PB9yg",
+      "sol_price_usd": 101.63,
+      "sol_price_source": "dexscreener",
+      "regime_value": 1.0,
+      "regime_state": "poor",
+      "min_entry_liquidity_usd": 25000.0
+    },
+    {
+      "ts": "2026-10-24T11:05:46.784126+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -131,32 +159,20 @@
       "detail": "liquidity_too_low (0 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
+        "liq_usd < 8000"
       ],
-      "symbol": "HELP",
-      "address": "Cm7WbWJyinGEpvZ9UY4veT2D4Rg66uBe8HMWpNCxpump",
+      "symbol": "BIP",
+      "address": "HkA158av8rNvAwHxZ36PDJioCe3JsgVRqY5eG4QvVG3z",
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.374310+00:00",
-      "kind": "scan",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "tokens_scanned": 30,
-      "top_symbol": "SLOPCOIN",
-      "top_score": 76.8,
-      "above_threshold": 0
-    },
-    {
-      "ts": "2026-10-24T11:02:47.404518+00:00",
+      "ts": "2026-10-24T11:05:46.784169+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (2333 < 8000)",
+      "detail": "liquidity_too_low (2309 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -167,13 +183,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404599+00:00",
+      "ts": "2026-10-24T11:05:46.784200+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (2414 < 8000)",
+      "detail": "liquidity_too_low (2366 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -184,7 +200,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404632+00:00",
+      "ts": "2026-10-24T11:05:46.784228+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -200,7 +216,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404660+00:00",
+      "ts": "2026-10-24T11:05:46.784256+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -217,7 +233,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404703+00:00",
+      "ts": "2026-10-24T11:05:46.784282+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -226,20 +242,21 @@
       "detail": "liquidity_too_low (0 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
-        "liq_usd < 8000"
+        "liq_usd < 8000",
+        "vol_liq > 8 & |h1| < 8"
       ],
       "symbol": "4",
       "address": "BmeQS5NGRZLGce5XYvFSBp6jj3CEi7uNrPVPKbTgpump",
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404730+00:00",
+      "ts": "2026-10-24T11:05:46.784321+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (2957 < 8000)",
+      "detail": "liquidity_too_low (3024 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -250,7 +267,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404759+00:00",
+      "ts": "2026-10-24T11:05:46.784353+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -266,7 +283,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404814+00:00",
+      "ts": "2026-10-24T11:05:46.784379+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -282,7 +299,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404840+00:00",
+      "ts": "2026-10-24T11:05:46.784406+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -298,7 +315,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404876+00:00",
+      "ts": "2026-10-24T11:05:46.784433+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -315,7 +332,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404906+00:00",
+      "ts": "2026-10-24T11:05:46.784459+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -331,7 +348,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404935+00:00",
+      "ts": "2026-10-24T11:05:46.784485+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -348,13 +365,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404966+00:00",
+      "ts": "2026-10-24T11:05:46.784511+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (2486 < 8000)",
+      "detail": "liquidity_too_low (2488 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -365,13 +382,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.404991+00:00",
+      "ts": "2026-10-24T11:05:46.784545+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (4350 < 8000)",
+      "detail": "liquidity_too_low (4638 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -382,7 +399,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.405017+00:00",
+      "ts": "2026-10-24T11:05:46.785370+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -399,7 +416,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.405046+00:00",
+      "ts": "2026-10-24T11:05:46.785627+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -415,7 +432,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.405071+00:00",
+      "ts": "2026-10-24T11:05:46.785834+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -432,7 +449,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.405099+00:00",
+      "ts": "2026-10-24T11:05:46.786043+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -448,7 +465,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.405126+00:00",
+      "ts": "2026-10-24T11:05:46.786223+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -464,7 +481,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.405155+00:00",
+      "ts": "2026-10-24T11:05:46.786407+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -480,7 +497,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.405183+00:00",
+      "ts": "2026-10-24T11:05:46.786579+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -496,36 +513,19 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-24T11:02:47.405213+00:00",
+      "ts": "2026-10-24T11:05:46.786783+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-22.4% < -15%)",
+      "detail": "downtrend_h1 (-39.3% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
       ],
       "symbol": "COIL",
       "address": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T11:02:47.405239+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "HELP",
-      "address": "Cm7WbWJyinGEpvZ9UY4veT2D4Rg66uBe8HMWpNCxpump",
       "score": 0.0
     }
   ],
@@ -8694,29 +8694,69 @@
       "liq_collapse_flag": false,
       "peak_price_usd": 0.0001703,
       "trough_price_usd": 0.0001182
+    },
+    {
+      "ts": "2026-10-24T11:04:21.609709+00:00",
+      "kind": "exit",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "symbol": "COIL",
+      "address": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
+      "reason": "circuit_breaker",
+      "cohort": "v3_clean",
+      "entry_price": 0.0001287,
+      "exit_price_raw": 8.497e-05,
+      "exit_price": 8.345562173914172e-05,
+      "pnl_pct": -35.15,
+      "pnl_usd": -12.05,
+      "pnl_raw_usd": -10.0,
+      "fraction": 1.0,
+      "sold_frac_total": 1.0,
+      "held_min": 69.4,
+      "impact_pct_entry": 0.019068759742671172,
+      "impact_pct_exit": 0.0178,
+      "dex_fee_usd_entry": 0.5,
+      "dex_fee_usd_exit": 0.1944,
+      "network_cost_usd_entry": 0.4051,
+      "network_cost_usd_exit": 0.4062,
+      "failed_attempt_costs_usd": 0.0,
+      "total_cost_pct": 6.84,
+      "shortfall_usd": 0.0,
+      "failed_fill": false,
+      "rng_roll": 0.3664,
+      "sol_price_usd": 101.55,
+      "sol_price_source": "dexscreener",
+      "slippage_haircut_applied_pct": null,
+      "deployer": "BckRK5Aqa9JNtHCiJ8nCPmXNvZzQ9AS8npzSDjXcHJBT",
+      "exit_reason_detail": "circuit_breaker poll 1/1: pnl -34.0% <= -20% (single-poll trigger, rules v3)",
+      "mae_pct": -34.43,
+      "mfe_pct": 44.76,
+      "time_to_mae_sec": 4159,
+      "time_to_mfe_sec": 1561,
+      "liq_at_entry_usd": 30202.71,
+      "liq_min_during_hold_usd": 24310.2,
+      "liq_at_exit_usd": 24396.94,
+      "liq_collapse_flag": false,
+      "peak_price_usd": 0.0001863,
+      "trough_price_usd": 8.439e-05
     }
   ],
   "history_files": {
-    "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": "history/Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump.json",
     "BzA6JBKgH8qK3XzBpXUiF283jd1k7yCKzwJEiEFAhc68": "history/BzA6JBKgH8qK3XzBpXUiF283jd1k7yCKzwJEiEFAhc68.json"
   },
   "swarm": {
-    "equity": 8015.68,
-    "balance": 7991.18,
+    "equity": 8009.67,
+    "balance": 8009.67,
     "starting_balance": 10000.0,
-    "realized_pnl": -1974.59,
-    "unrealized_pnl": -6.05,
-    "open_count": 1,
+    "realized_pnl": -1986.64,
+    "unrealized_pnl": 0.0,
+    "open_count": 0,
     "pending_count": 0,
-    "closed_count": 138,
+    "closed_count": 139,
     "wins": 27,
-    "losses": 111,
-    "expectancy_per_trade": -14.3086,
-    "top_open": [
-      {
-        "symbol": "COIL",
-        "pct_change": -16.78
-      }
-    ]
+    "losses": 112,
+    "expectancy_per_trade": -14.2924,
+    "top_open": []
   }
 }
