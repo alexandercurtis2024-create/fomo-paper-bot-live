@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-24T04:33:49.353895+00:00",
+  "generated_at": "2026-10-24T04:35:59.560564+00:00",
   "scorer_version": "v3",
   "cost_model_version": "costs_v1",
   "config_hash": "8a8468bc9556",
   "regime": {
-    "regime_value": 0.9,
+    "regime_value": 1.0,
     "regime_state": "poor",
     "samples": 20,
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
   "balance": 538.63,
-  "equity": 569.81,
+  "equity": 567.69,
   "realized_pnl": -430.33,
-  "unrealized_pnl": 0.64,
-  "pnl_pct": -43.02,
+  "unrealized_pnl": -1.49,
+  "pnl_pct": -43.23,
   "wins": 38,
   "losses": 58,
   "trades_closed": 42,
@@ -23,8 +23,8 @@
       "address": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
       "symbol": "REMUS",
       "entry_price": 0.0002767,
-      "current_price": 0.0002929,
-      "pct_change": 5.85,
+      "current_price": 0.0002729,
+      "pct_change": -1.37,
       "entry_score": 80.0,
       "opened_at": "2026-10-24T04:11:00.035118+00:00",
       "peak_price": 0.0002929,
@@ -36,445 +36,11 @@
   "top_candidate": {
     "address": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
     "symbol": "REMUS",
-    "score": 80.0,
-    "price_usd": 0.0002929,
+    "score": 71.1,
+    "price_usd": 0.0002729,
     "history_file": "history/CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-24T04:32:26.083377+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "vol_liq > 8 & |h1| < 8"
-      ],
-      "symbol": "HYPERPLEX",
-      "address": "3FP94ueqb4mZyt1Bn8WVgamM5wGqUyRv6MXpQM88pump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:32:26.084272+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (2958 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "MM",
-      "address": "A5QaTEFzXPVL7LRQQQW74J91ZTZXT3JASoazzrSMpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:32:26.084567+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (8 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "fdv/liq > 80"
-      ],
-      "symbol": "Bubble",
-      "address": "BeLS1AyDviPfyt2RN4YVNFm5hpq8fBPxoGMkLw8npump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:48.973158+00:00",
-      "kind": "scan",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "tokens_scanned": 29,
-      "top_symbol": "REMUS",
-      "top_score": 80.0,
-      "above_threshold": 1
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006283+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "already_open",
-      "symbol": "REMUS",
-      "address": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
-      "score": 80.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006377+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "MONEKO",
-      "address": "EcYF3kerbdbYpMEphg4WSgGBdvg9HwWiMDBvMyrHpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006420+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "SOLFLY",
-      "address": "36LGcntje2Dj283QGUNvtVkhQGoEf7Db8Qi9zgRZpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006447+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "top10_concentration > 35%",
-      "hard_reject_rule": "top10_concentration > 35%",
-      "reject_rules": [
-        "top10_concentration > 35%"
-      ],
-      "symbol": "MoonFrog",
-      "address": "HHvJzTLUwN7AQ7ypF2wW3WKeAyfEETzYoLnYAKypump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006475+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (7442 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "Job",
-      "address": "6UTCd5hrSe9BFg4iQyxgXTwaK9tWx441pUP2zg4Spump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006524+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "top10_concentration > 35%",
-      "hard_reject_rule": "top10_concentration > 35%",
-      "reject_rules": [
-        "top10_concentration > 35%"
-      ],
-      "symbol": "beb\u00e9bigote",
-      "address": "9E35BhwVHsmKYJU1pAMyoCAahmarUns3cHhpnCWPpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006551+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "\u2b1b",
-      "address": "D4EzkyAqvJBAFr9LBUGt3Z6pnHQSqh57DyQSsJZpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006581+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "Private",
-      "address": "FCNqgsbKcnKZnnpCC4PkGbRGcWvGGeBtqoxAzAMipump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006611+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "downtrend_h1 (-16.2% < -15%)",
-      "hard_reject_rule": "price_change_1h < -15",
-      "reject_rules": [
-        "price_change_1h < -15"
-      ],
-      "symbol": "BLAZE",
-      "address": "BLAZEgnrPc5rw1NGPAdUYT3S5AtyoDaPM2WneBk7uYz8",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006642+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (2089 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "LOLSHOES",
-      "address": "CHSSBJXpKcptQUMyeGYF8XhtCHSZBZ8ARjKwtbnjpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006668+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (3011 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "E888",
-      "address": "7Sbgdkhi2xvpioNXQTjbxfCozQapQDq2Azg7CJZgpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006695+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "vol_liq > 8 & |h1| < 8"
-      ],
-      "symbol": "BEAT",
-      "address": "HNyEyJ9dxjr44BgpPRVg4rjA4iig4J7igyKLTVoDpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006724+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (6075 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "\u2588\u2588\u2588",
-      "address": "DsmfENFp5jDJuwMzJXPeNJgDfFbUwwSnpiqmgQTZpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006750+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "downtrend_h1 (-59.8% < -15%)",
-      "hard_reject_rule": "price_change_1h < -15",
-      "reject_rules": [
-        "price_change_1h < -15"
-      ],
-      "symbol": "TRUMP",
-      "address": "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006780+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "Content",
-      "address": "wpr2yofZfyxebXJWAJJLwofpNivVzvG5A6KoaqApump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006808+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (2169 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15",
-        "buy_sell_ratio_h1 outside 0.35-2.8"
-      ],
-      "symbol": "MCAT",
-      "address": "CePvX5yJSR3ZkSnU5SoeMuYS1exwBJR1YKyN5Ps8pump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006835+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "psyop",
-      "address": "EAqhsvrVXTXdirQrY1yB7e5AGjjkfxqWMkwJ1HCppump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006860+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "STELE",
-      "address": "EqRZn9nH4UPb36AVLuigzRfufa1z8b744vWpt5tjpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006888+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (5136 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "STOCK",
-      "address": "BvPTsmYk37MoHuf7QobL99rQTbZzbcnTCH49iUohpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006916+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (3538 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "STOCK",
-      "address": "3UokDSJKWZjaLTuxpoTF6xCtrGjbshVdZsh86Eqmpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006943+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (4432 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "NETANYAHU",
-      "address": "59QQe9CpYc3ysgpKUrpc4C2LgcVZPoB3ycBUyKBnpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006969+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "top10_concentration > 35%",
-      "hard_reject_rule": "top10_concentration > 35%",
-      "reject_rules": [
-        "top10_concentration > 35%"
-      ],
-      "symbol": "Ombra",
-      "address": "GGHi5KXLsyBePcjyQsrPCKKJiXnV1rVNPwoXFKZBpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-24T04:33:49.006994+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "MM",
-      "address": "9vbYeW9w6LRDqeoGwcdhgbwyz35zMoQzC61g8Uzupump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-24T04:33:49.007020+00:00",
       "kind": "skip",
@@ -523,6 +89,445 @@
       ],
       "symbol": "Bubble",
       "address": "BeLS1AyDviPfyt2RN4YVNFm5hpq8fBPxoGMkLw8npump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.095705+00:00",
+      "kind": "scan",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "tokens_scanned": 29,
+      "top_symbol": "REMUS",
+      "top_score": 71.1,
+      "above_threshold": 0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.122799+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (0 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000"
+      ],
+      "symbol": "MONEKO",
+      "address": "EcYF3kerbdbYpMEphg4WSgGBdvg9HwWiMDBvMyrHpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.122888+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (0 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000"
+      ],
+      "symbol": "SOLFLY",
+      "address": "36LGcntje2Dj283QGUNvtVkhQGoEf7Db8Qi9zgRZpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.122928+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "top10_concentration > 35%",
+      "hard_reject_rule": "top10_concentration > 35%",
+      "reject_rules": [
+        "top10_concentration > 35%"
+      ],
+      "symbol": "MoonFrog",
+      "address": "HHvJzTLUwN7AQ7ypF2wW3WKeAyfEETzYoLnYAKypump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.122962+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "downtrend_h1 (-67.3% < -15%)",
+      "hard_reject_rule": "price_change_1h < -15",
+      "reject_rules": [
+        "price_change_1h < -15"
+      ],
+      "symbol": "Job",
+      "address": "6UTCd5hrSe9BFg4iQyxgXTwaK9tWx441pUP2zg4Spump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123037+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "top10_concentration > 35%",
+      "hard_reject_rule": "top10_concentration > 35%",
+      "reject_rules": [
+        "top10_concentration > 35%"
+      ],
+      "symbol": "beb\u00e9bigote",
+      "address": "9E35BhwVHsmKYJU1pAMyoCAahmarUns3cHhpnCWPpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123066+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (0 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000",
+        "price_change_1h < -15"
+      ],
+      "symbol": "\u2b1b",
+      "address": "D4EzkyAqvJBAFr9LBUGt3Z6pnHQSqh57DyQSsJZpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123094+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (0 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000"
+      ],
+      "symbol": "Private",
+      "address": "FCNqgsbKcnKZnnpCC4PkGbRGcWvGGeBtqoxAzAMipump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123120+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "top10_concentration > 35%",
+      "hard_reject_rule": "top10_concentration > 35%",
+      "reject_rules": [
+        "top10_concentration > 35%",
+        "top3_concentration > 40%"
+      ],
+      "symbol": "BLAZE",
+      "address": "BLAZEgnrPc5rw1NGPAdUYT3S5AtyoDaPM2WneBk7uYz8",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123146+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (2089 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000",
+        "price_change_1h < -15",
+        "buy_sell_ratio_h1 outside 0.35-2.8"
+      ],
+      "symbol": "LOLSHOES",
+      "address": "CHSSBJXpKcptQUMyeGYF8XhtCHSZBZ8ARjKwtbnjpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123172+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "pure_churn (vol/liq 14.0 > 8, |h1| 5.2% < 8%)",
+      "hard_reject_rule": "vol_liq > 8 & |h1| < 8",
+      "reject_rules": [
+        "vol_liq > 8 & |h1| < 8"
+      ],
+      "symbol": "\u2588\u2588\u2588",
+      "address": "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123201+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (3011 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000",
+        "price_change_1h < -15"
+      ],
+      "symbol": "E888",
+      "address": "7Sbgdkhi2xvpioNXQTjbxfCozQapQDq2Azg7CJZgpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123229+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (0 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000",
+        "vol_liq > 8 & |h1| < 8"
+      ],
+      "symbol": "BEAT",
+      "address": "HNyEyJ9dxjr44BgpPRVg4rjA4iig4J7igyKLTVoDpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123263+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (5536 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000",
+        "price_change_1h < -15"
+      ],
+      "symbol": "\u2588\u2588\u2588",
+      "address": "DsmfENFp5jDJuwMzJXPeNJgDfFbUwwSnpiqmgQTZpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123292+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "downtrend_h1 (-62.6% < -15%)",
+      "hard_reject_rule": "price_change_1h < -15",
+      "reject_rules": [
+        "price_change_1h < -15"
+      ],
+      "symbol": "TRUMP",
+      "address": "3YYqFkPaob7SzUCyk59DGVhPZK1LN9odKMJc1uy3pump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123318+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (0 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000"
+      ],
+      "symbol": "Content",
+      "address": "wpr2yofZfyxebXJWAJJLwofpNivVzvG5A6KoaqApump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123343+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (2169 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000",
+        "price_change_1h < -15",
+        "buy_sell_ratio_h1 outside 0.35-2.8"
+      ],
+      "symbol": "MCAT",
+      "address": "CePvX5yJSR3ZkSnU5SoeMuYS1exwBJR1YKyN5Ps8pump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123369+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (0 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000"
+      ],
+      "symbol": "psyop",
+      "address": "EAqhsvrVXTXdirQrY1yB7e5AGjjkfxqWMkwJ1HCppump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123394+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (0 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000"
+      ],
+      "symbol": "STELE",
+      "address": "EqRZn9nH4UPb36AVLuigzRfufa1z8b744vWpt5tjpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123419+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (5106 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000",
+        "price_change_1h < -15"
+      ],
+      "symbol": "STOCK",
+      "address": "BvPTsmYk37MoHuf7QobL99rQTbZzbcnTCH49iUohpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123447+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (3538 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000",
+        "price_change_1h < -15"
+      ],
+      "symbol": "STOCK",
+      "address": "3UokDSJKWZjaLTuxpoTF6xCtrGjbshVdZsh86Eqmpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123472+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (4366 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000"
+      ],
+      "symbol": "NETANYAHU",
+      "address": "59QQe9CpYc3ysgpKUrpc4C2LgcVZPoB3ycBUyKBnpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123514+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "top10_concentration > 35%",
+      "hard_reject_rule": "top10_concentration > 35%",
+      "reject_rules": [
+        "top10_concentration > 35%"
+      ],
+      "symbol": "Ombra",
+      "address": "GGHi5KXLsyBePcjyQsrPCKKJiXnV1rVNPwoXFKZBpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123549+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (0 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000"
+      ],
+      "symbol": "MM",
+      "address": "9vbYeW9w6LRDqeoGwcdhgbwyz35zMoQzC61g8Uzupump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123578+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (0 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000",
+        "vol_liq > 8 & |h1| < 8"
+      ],
+      "symbol": "HYPERPLEX",
+      "address": "3FP94ueqb4mZyt1Bn8WVgamM5wGqUyRv6MXpQM88pump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123616+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (2958 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000"
+      ],
+      "symbol": "MM",
+      "address": "A5QaTEFzXPVL7LRQQQW74J91ZTZXT3JASoazzrSMpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-24T04:35:10.123640+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (0 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000"
+      ],
+      "symbol": "POKEMOG",
+      "address": "DSMLRDWPDKWDLx4mTGaAYXYfiAD5D9oXg5fhsbPPpump",
       "score": 0.0
     }
   ],
@@ -8365,11 +8370,11 @@
     "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": "history/CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump.json"
   },
   "swarm": {
-    "equity": 8034.14,
+    "equity": 8032.02,
     "balance": 8002.96,
     "starting_balance": 10000.0,
     "realized_pnl": -1962.82,
-    "unrealized_pnl": 0.64,
+    "unrealized_pnl": -1.49,
     "open_count": 1,
     "pending_count": 0,
     "closed_count": 136,
@@ -8379,7 +8384,7 @@
     "top_open": [
       {
         "symbol": "REMUS",
-        "pct_change": 5.85
+        "pct_change": -1.37
       }
     ]
   }
