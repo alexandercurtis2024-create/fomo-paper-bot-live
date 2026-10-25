@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-25T20:07:24.288181+00:00",
+  "generated_at": "2026-10-25T20:11:07.811952+00:00",
   "scorer_version": "v3",
   "cost_model_version": "costs_v1",
   "config_hash": "8a8468bc9556",
   "regime": {
-    "regime_value": 0.95,
+    "regime_value": 0.9,
     "regime_state": "poor",
     "samples": 20,
     "effective_max_open": 2
@@ -22,19 +22,19 @@
   "top_candidate": {
     "address": "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump",
     "symbol": "GUST",
-    "score": 48.2,
-    "price_usd": 7.301e-05,
+    "score": 45.6,
+    "price_usd": 7.277e-05,
     "history_file": "history/z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump.json"
   },
   "recent_events": [
     {
-      "ts": "2026-10-25T20:05:10.644110+00:00",
+      "ts": "2026-10-25T20:09:43.329199+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-68.0% < -15%)",
+      "detail": "downtrend_h1 (-65.9% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
@@ -44,34 +44,34 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:05:10.644135+00:00",
+      "ts": "2026-10-25T20:11:06.947522+00:00",
+      "kind": "scan",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "tokens_scanned": 29,
+      "top_symbol": "GUST",
+      "top_score": 45.6,
+      "above_threshold": 0
+    },
+    {
+      "ts": "2026-10-25T20:11:06.987350+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
+      "detail": "buy_sell_ratio_extreme (4.63 outside 0.35-2.8)",
+      "hard_reject_rule": "buy_sell_ratio_h1 outside 0.35-2.8",
       "reject_rules": [
-        "liq_usd < 8000"
+        "buy_sell_ratio_h1 outside 0.35-2.8"
       ],
-      "symbol": "SOLBRO",
-      "address": "9H8iVVQycrmhMRQTFie6ZrdUgid8iye7Z78pJrn8pump",
+      "symbol": "LUCIASS",
+      "address": "HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump",
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:37.387989+00:00",
-      "kind": "scan",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "tokens_scanned": 28,
-      "top_symbol": "GUST",
-      "top_score": 48.2,
-      "above_threshold": 0
-    },
-    {
-      "ts": "2026-10-25T20:06:40.831625+00:00",
+      "ts": "2026-10-25T20:11:06.987669+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -87,7 +87,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.831940+00:00",
+      "ts": "2026-10-25T20:11:06.987904+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -103,13 +103,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.832201+00:00",
+      "ts": "2026-10-25T20:11:06.988144+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-30.3% < -15%)",
+      "detail": "downtrend_h1 (-28.4% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
@@ -119,7 +119,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.832398+00:00",
+      "ts": "2026-10-25T20:11:06.988328+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -135,13 +135,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.832589+00:00",
+      "ts": "2026-10-25T20:11:06.988528+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (5548 < 8000)",
+      "detail": "liquidity_too_low (4015 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -152,7 +152,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.832781+00:00",
+      "ts": "2026-10-25T20:11:06.988702+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -169,7 +169,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.832963+00:00",
+      "ts": "2026-10-25T20:11:06.988911+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -185,13 +185,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.833169+00:00",
+      "ts": "2026-10-25T20:11:06.989080+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "buy_sell_ratio_extreme (3.79 outside 0.35-2.8)",
+      "detail": "buy_sell_ratio_extreme (3.85 outside 0.35-2.8)",
       "hard_reject_rule": "buy_sell_ratio_h1 outside 0.35-2.8",
       "reject_rules": [
         "buy_sell_ratio_h1 outside 0.35-2.8"
@@ -201,7 +201,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.833352+00:00",
+      "ts": "2026-10-25T20:11:06.989266+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -210,14 +210,15 @@
       "detail": "liquidity_too_low (0 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
-        "liq_usd < 8000"
+        "liq_usd < 8000",
+        "price_change_1h < -15"
       ],
       "symbol": "ATLAS ",
       "address": "FLAKs6BYszqb6qv5AQ16zPQnHHT5TLmY5df7pLVpump",
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.833549+00:00",
+      "ts": "2026-10-25T20:11:06.989429+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -233,7 +234,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.833731+00:00",
+      "ts": "2026-10-25T20:11:06.989615+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -242,20 +243,21 @@
       "detail": "liquidity_too_low (0 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
-        "liq_usd < 8000"
+        "liq_usd < 8000",
+        "price_change_1h < -15"
       ],
       "symbol": "Pump",
       "address": "78GNpw9qvt1aNtQ5YRGaqsJhanvexWtev15pS7i3pump",
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.833863+00:00",
+      "ts": "2026-10-25T20:11:06.989801+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (2263 < 8000)",
+      "detail": "liquidity_too_low (2287 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -266,13 +268,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.833996+00:00",
+      "ts": "2026-10-25T20:11:06.989985+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-17.9% < -15%)",
+      "detail": "downtrend_h1 (-25.4% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
@@ -282,7 +284,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.834145+00:00",
+      "ts": "2026-10-25T20:11:06.990184+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -299,13 +301,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.834325+00:00",
+      "ts": "2026-10-25T20:11:06.990370+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "buy_sell_ratio_extreme (3.51 outside 0.35-2.8)",
+      "detail": "buy_sell_ratio_extreme (3.39 outside 0.35-2.8)",
       "hard_reject_rule": "buy_sell_ratio_h1 outside 0.35-2.8",
       "reject_rules": [
         "buy_sell_ratio_h1 outside 0.35-2.8"
@@ -315,13 +317,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.834499+00:00",
+      "ts": "2026-10-25T20:11:06.990539+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (4637 < 8000)",
+      "detail": "liquidity_too_low (4292 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -332,7 +334,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.834669+00:00",
+      "ts": "2026-10-25T20:11:06.990700+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -348,13 +350,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.834829+00:00",
+      "ts": "2026-10-25T20:11:06.990902+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (6600 < 8000)",
+      "detail": "liquidity_too_low (6810 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -365,7 +367,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.835007+00:00",
+      "ts": "2026-10-25T20:11:06.991092+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -381,7 +383,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.835209+00:00",
+      "ts": "2026-10-25T20:11:06.991274+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -397,13 +399,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.835319+00:00",
+      "ts": "2026-10-25T20:11:06.991445+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "pure_churn (vol/liq 24.4 > 8, |h1| 5.8% < 8%)",
+      "detail": "pure_churn (vol/liq 23.1 > 8, |h1| 2.8% < 8%)",
       "hard_reject_rule": "vol_liq > 8 & |h1| < 8",
       "reject_rules": [
         "vol_liq > 8 & |h1| < 8"
@@ -413,13 +415,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.835349+00:00",
+      "ts": "2026-10-25T20:11:06.991626+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (2122 < 8000)",
+      "detail": "liquidity_too_low (2094 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -430,24 +432,24 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.835383+00:00",
+      "ts": "2026-10-25T20:11:06.991804+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-28.3% < -15%)",
-      "hard_reject_rule": "price_change_1h < -15",
+      "detail": "buy_sell_ratio_extreme (5.25 outside 0.35-2.8)",
+      "hard_reject_rule": "buy_sell_ratio_h1 outside 0.35-2.8",
       "reject_rules": [
-        "price_change_1h < -15",
-        "buy_sell_ratio_h1 outside 0.35-2.8"
+        "buy_sell_ratio_h1 outside 0.35-2.8",
+        "vol_liq > 8 & |h1| < 8"
       ],
       "symbol": "AMC",
       "address": "B3utmoAez4taLJQ5usxEeya7T5ZijchsETdQCMazpump",
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.835411+00:00",
+      "ts": "2026-10-25T20:11:06.991987+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -464,13 +466,29 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.835436+00:00",
+      "ts": "2026-10-25T20:11:06.992177+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-46.2% < -15%)",
+      "detail": "top10_concentration > 35%",
+      "hard_reject_rule": "top10_concentration > 35%",
+      "reject_rules": [
+        "top10_concentration > 35%"
+      ],
+      "symbol": "POKERFACE",
+      "address": "Hdee3uRCvxm5mWWinrYNCR9S2uVXf54YCGvHSkvpump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-25T20:11:06.992360+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "downtrend_h1 (-38.7% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
@@ -480,35 +498,20 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T20:06:40.835461+00:00",
+      "ts": "2026-10-25T20:11:06.992532+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-60.6% < -15%)",
-      "hard_reject_rule": "price_change_1h < -15",
+      "detail": "liquidity_too_low (7317 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
+        "liq_usd < 8000",
         "price_change_1h < -15"
       ],
       "symbol": "CWORM",
       "address": "65V31DT6xGVXY8axRu2QzNf1U7u6ZuQ77sRoBGYYpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-25T20:06:40.835487+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "SOLBRO",
-      "address": "9H8iVVQycrmhMRQTFie6ZrdUgid8iye7Z78pJrn8pump",
       "score": 0.0
     }
   ],
