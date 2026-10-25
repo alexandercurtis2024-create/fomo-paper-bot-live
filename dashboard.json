@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-25T21:32:41.082119+00:00",
+  "generated_at": "2026-10-25T21:37:05.191624+00:00",
   "scorer_version": "v3",
   "cost_model_version": "costs_v1",
   "config_hash": "8a8468bc9556",
   "regime": {
-    "regime_value": 0.85,
+    "regime_value": 1.0,
     "regime_state": "poor",
     "samples": 20,
     "effective_max_open": 2
@@ -20,15 +20,31 @@
   "trades_closed": 71,
   "open_positions": [],
   "top_candidate": {
-    "address": "3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump",
-    "symbol": "PRESIDENT",
-    "score": 65.0,
-    "price_usd": 0.0001913,
-    "history_file": "history/3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump.json"
+    "address": "GUumEY1X2BAmF2xw6or2qhHFWapv3We6SiYkZgo9pump",
+    "symbol": "Tommie",
+    "score": 69.9,
+    "price_usd": 4.467e-05,
+    "history_file": "history/GUumEY1X2BAmF2xw6or2qhHFWapv3We6SiYkZgo9pump.json"
   },
   "recent_events": [
     {
-      "ts": "2026-10-25T21:30:23.686398+00:00",
+      "ts": "2026-10-25T21:33:41.041607+00:00",
+      "kind": "skip",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "8a8468bc9556",
+      "reason": "hard_reject",
+      "detail": "liquidity_too_low (0 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
+      "reject_rules": [
+        "liq_usd < 8000"
+      ],
+      "symbol": "APE",
+      "address": "BYY8bj8hugGNpE9pKAY3qayAfjTKDqb1MJPr3iP4pump",
+      "score": 0.0
+    },
+    {
+      "ts": "2026-10-25T21:33:41.041806+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -44,7 +60,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:30:23.686423+00:00",
+      "ts": "2026-10-25T21:33:41.041853+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -61,24 +77,24 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:04.206465+00:00",
+      "ts": "2026-10-25T21:35:34.586167+00:00",
       "kind": "scan",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "tokens_scanned": 29,
-      "top_symbol": "PRESIDENT",
-      "top_score": 65.0,
+      "top_symbol": "Tommie",
+      "top_score": 69.9,
       "above_threshold": 0
     },
     {
-      "ts": "2026-10-25T21:32:06.641419+00:00",
+      "ts": "2026-10-25T21:35:34.613911+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-33.2% < -15%)",
+      "detail": "downtrend_h1 (-62.3% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
@@ -88,23 +104,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.641808+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "Tommie",
-      "address": "GUumEY1X2BAmF2xw6or2qhHFWapv3We6SiYkZgo9pump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-25T21:32:06.642053+00:00",
+      "ts": "2026-10-25T21:35:34.613973+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -120,7 +120,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642403+00:00",
+      "ts": "2026-10-25T21:35:34.614006+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -137,13 +137,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642448+00:00",
+      "ts": "2026-10-25T21:35:34.614034+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-46.5% < -15%)",
+      "detail": "downtrend_h1 (-26.1% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
@@ -153,16 +153,17 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642476+00:00",
+      "ts": "2026-10-25T21:35:34.614060+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (12 < 8000)",
+      "detail": "liquidity_too_low (8 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
+        "price_change_1h < -15",
         "fdv/liq > 80"
       ],
       "symbol": "NEURON",
@@ -170,7 +171,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642503+00:00",
+      "ts": "2026-10-25T21:35:34.614086+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -186,7 +187,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642529+00:00",
+      "ts": "2026-10-25T21:35:34.614116+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -204,7 +205,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642555+00:00",
+      "ts": "2026-10-25T21:35:34.614143+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -221,7 +222,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642581+00:00",
+      "ts": "2026-10-25T21:35:34.614176+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -238,13 +239,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642622+00:00",
+      "ts": "2026-10-25T21:35:34.614207+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (3377 < 8000)",
+      "detail": "liquidity_too_low (3362 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -255,13 +256,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642663+00:00",
+      "ts": "2026-10-25T21:35:34.614236+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-28.4% < -15%)",
+      "detail": "downtrend_h1 (-51.8% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
@@ -271,7 +272,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642697+00:00",
+      "ts": "2026-10-25T21:35:34.614262+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -287,13 +288,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642728+00:00",
+      "ts": "2026-10-25T21:35:34.614288+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "pure_churn (vol/liq 12.0 > 8, |h1| 0.6% < 8%)",
+      "detail": "pure_churn (vol/liq 12.2 > 8, |h1| 0.8% < 8%)",
       "hard_reject_rule": "vol_liq > 8 & |h1| < 8",
       "reject_rules": [
         "vol_liq > 8 & |h1| < 8"
@@ -303,7 +304,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642756+00:00",
+      "ts": "2026-10-25T21:35:34.614314+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -319,13 +320,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642782+00:00",
+      "ts": "2026-10-25T21:35:34.614339+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-36.9% < -15%)",
+      "detail": "downtrend_h1 (-35.5% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
@@ -335,7 +336,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642807+00:00",
+      "ts": "2026-10-25T21:35:34.614364+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -352,7 +353,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642833+00:00",
+      "ts": "2026-10-25T21:35:34.614411+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -370,13 +371,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642859+00:00",
+      "ts": "2026-10-25T21:35:34.614438+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (5122 < 8000)",
+      "detail": "liquidity_too_low (4949 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -387,7 +388,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642885+00:00",
+      "ts": "2026-10-25T21:35:34.614467+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -404,13 +405,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642910+00:00",
+      "ts": "2026-10-25T21:35:34.614495+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "liquidity_too_low (2402 < 8000)",
+      "detail": "liquidity_too_low (2375 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
@@ -421,15 +422,16 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642935+00:00",
+      "ts": "2026-10-25T21:35:34.614521+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-61.6% < -15%)",
-      "hard_reject_rule": "price_change_1h < -15",
+      "detail": "liquidity_too_low (7366 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
+        "liq_usd < 8000",
         "price_change_1h < -15"
       ],
       "symbol": "Tenmusu",
@@ -437,7 +439,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642964+00:00",
+      "ts": "2026-10-25T21:35:34.614549+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -453,7 +455,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.642992+00:00",
+      "ts": "2026-10-25T21:35:34.614575+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -470,7 +472,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.643019+00:00",
+      "ts": "2026-10-25T21:35:34.614605+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -486,7 +488,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.643045+00:00",
+      "ts": "2026-10-25T21:35:34.614648+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -502,7 +504,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T21:32:06.643070+00:00",
+      "ts": "2026-10-25T21:35:34.614679+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -11497,7 +11499,7 @@
     }
   ],
   "history_files": {
-    "3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": "history/3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump.json"
+    "GUumEY1X2BAmF2xw6or2qhHFWapv3We6SiYkZgo9pump": "history/GUumEY1X2BAmF2xw6or2qhHFWapv3We6SiYkZgo9pump.json"
   },
   "swarm": {
     "equity": 7794.8,
