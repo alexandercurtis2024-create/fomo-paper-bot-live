@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-25T03:07:54.970826+00:00",
+  "generated_at": "2026-10-25T03:10:42.285600+00:00",
   "scorer_version": "v3",
   "cost_model_version": "costs_v1",
   "config_hash": "8a8468bc9556",
   "regime": {
-    "regime_value": 0.95,
+    "regime_value": 1.0,
     "regime_state": "poor",
     "samples": 20,
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
   "balance": 409.24,
-  "equity": 482.36,
+  "equity": 484.69,
   "realized_pnl": -519.76,
-  "unrealized_pnl": 3.88,
-  "pnl_pct": -51.76,
+  "unrealized_pnl": 6.22,
+  "pnl_pct": -51.53,
   "wins": 47,
   "losses": 79,
   "trades_closed": 58,
@@ -23,8 +23,8 @@
       "address": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
       "symbol": "CATTLEAXE",
       "entry_price": 0.001375,
-      "current_price": 0.002198,
-      "pct_change": 59.85,
+      "current_price": 0.002427,
+      "pct_change": 76.51,
       "entry_score": 80.3,
       "opened_at": "2026-10-25T01:12:31.667690+00:00",
       "peak_price": 0.002389,
@@ -36,8 +36,8 @@
       "address": "GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump",
       "symbol": "Chunkee",
       "entry_price": 0.0004989,
-      "current_price": 0.0004553,
-      "pct_change": -8.74,
+      "current_price": 0.0004491,
+      "pct_change": -9.98,
       "entry_score": 82.0,
       "opened_at": "2026-10-25T03:02:59.148301+00:00",
       "peak_price": 0.0005082,
@@ -47,15 +47,15 @@
     }
   ],
   "top_candidate": {
-    "address": "6E9xBtvLjoJ6CkpBWjmzFwtjhXz4HJTCuqEUUzXLpump",
-    "symbol": "XPSWORD",
-    "score": 65.0,
-    "price_usd": 0.0003753,
-    "history_file": "history/6E9xBtvLjoJ6CkpBWjmzFwtjhXz4HJTCuqEUUzXLpump.json"
+    "address": "BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump",
+    "symbol": "swordansem",
+    "score": 70.0,
+    "price_usd": 0.0001026,
+    "history_file": "history/BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump.json"
   },
   "recent_events": [
     {
-      "ts": "2026-10-25T03:05:33.520169+00:00",
+      "ts": "2026-10-25T03:08:17.541121+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -71,7 +71,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:05:33.520353+00:00",
+      "ts": "2026-10-25T03:08:17.541147+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -87,7 +87,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:05:33.520540+00:00",
+      "ts": "2026-10-25T03:08:17.541172+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -96,14 +96,15 @@
       "detail": "liquidity_too_low (0 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
-        "liq_usd < 8000"
+        "liq_usd < 8000",
+        "vol_liq > 8 & |h1| < 8"
       ],
       "symbol": "DONALD",
       "address": "BHFHAZcLBmoW1teLkHd2ZHu9i37FAxikfDWhFjm1pump",
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:05:33.520731+00:00",
+      "ts": "2026-10-25T03:08:17.541325+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -120,13 +121,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:05:33.520910+00:00",
+      "ts": "2026-10-25T03:08:17.541358+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "buy_sell_ratio_extreme (3.83 outside 0.35-2.8)",
+      "detail": "buy_sell_ratio_extreme (3.84 outside 0.35-2.8)",
       "hard_reject_rule": "buy_sell_ratio_h1 outside 0.35-2.8",
       "reject_rules": [
         "buy_sell_ratio_h1 outside 0.35-2.8"
@@ -136,7 +137,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:05:33.521119+00:00",
+      "ts": "2026-10-25T03:08:17.541385+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -152,18 +153,18 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.177951+00:00",
+      "ts": "2026-10-25T03:09:47.398040+00:00",
       "kind": "scan",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "tokens_scanned": 25,
-      "top_symbol": "XPSWORD",
-      "top_score": 65.0,
+      "top_symbol": "swordansem",
+      "top_score": 70.0,
       "above_threshold": 0
     },
     {
-      "ts": "2026-10-25T03:06:55.989542+00:00",
+      "ts": "2026-10-25T03:09:49.253214+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -179,7 +180,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.989631+00:00",
+      "ts": "2026-10-25T03:09:49.253325+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -196,13 +197,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.989679+00:00",
+      "ts": "2026-10-25T03:09:49.253377+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-74.6% < -15%)",
+      "detail": "downtrend_h1 (-62.7% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
@@ -212,7 +213,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.989717+00:00",
+      "ts": "2026-10-25T03:09:49.253424+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -228,7 +229,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.989751+00:00",
+      "ts": "2026-10-25T03:09:49.253454+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -244,7 +245,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.989783+00:00",
+      "ts": "2026-10-25T03:09:49.253481+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -261,15 +262,16 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.989813+00:00",
+      "ts": "2026-10-25T03:09:49.253507+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-68.9% < -15%)",
-      "hard_reject_rule": "price_change_1h < -15",
+      "detail": "liquidity_too_low (7814 < 8000)",
+      "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
+        "liq_usd < 8000",
         "price_change_1h < -15"
       ],
       "symbol": "OOMF",
@@ -277,7 +279,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.989843+00:00",
+      "ts": "2026-10-25T03:09:49.253534+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -293,13 +295,13 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.989878+00:00",
+      "ts": "2026-10-25T03:09:49.253563+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-84.8% < -15%)",
+      "detail": "downtrend_h1 (-86.9% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
@@ -309,7 +311,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.989917+00:00",
+      "ts": "2026-10-25T03:09:49.253592+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -326,7 +328,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.989948+00:00",
+      "ts": "2026-10-25T03:09:49.253625+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -343,7 +345,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.989977+00:00",
+      "ts": "2026-10-25T03:09:49.253651+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -360,7 +362,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.990006+00:00",
+      "ts": "2026-10-25T03:09:49.253680+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -377,7 +379,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.990036+00:00",
+      "ts": "2026-10-25T03:09:49.253712+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -387,20 +389,20 @@
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
         "liq_usd < 8000",
-        "vol_liq > 8 & |h1| < 8"
+        "price_change_1h < -15"
       ],
       "symbol": "Official",
       "address": "9eotcRTX94K8Zq8HxGmsaRmZ2FDqk974txmR2LUUpump",
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.990064+00:00",
+      "ts": "2026-10-25T03:09:49.253756+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
       "config_hash": "8a8468bc9556",
       "reason": "hard_reject",
-      "detail": "downtrend_h1 (-38.1% < -15%)",
+      "detail": "downtrend_h1 (-34.1% < -15%)",
       "hard_reject_rule": "price_change_1h < -15",
       "reject_rules": [
         "price_change_1h < -15"
@@ -410,7 +412,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.990092+00:00",
+      "ts": "2026-10-25T03:09:49.253783+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -426,7 +428,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.990122+00:00",
+      "ts": "2026-10-25T03:09:49.253817+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -443,7 +445,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.990150+00:00",
+      "ts": "2026-10-25T03:09:49.253846+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -459,7 +461,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.990178+00:00",
+      "ts": "2026-10-25T03:09:49.253872+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -475,7 +477,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.990370+00:00",
+      "ts": "2026-10-25T03:09:49.253897+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -484,14 +486,15 @@
       "detail": "liquidity_too_low (0 < 8000)",
       "hard_reject_rule": "liq_usd < 8000",
       "reject_rules": [
-        "liq_usd < 8000"
+        "liq_usd < 8000",
+        "vol_liq > 8 & |h1| < 8"
       ],
       "symbol": "DONALD",
       "address": "BHFHAZcLBmoW1teLkHd2ZHu9i37FAxikfDWhFjm1pump",
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.990413+00:00",
+      "ts": "2026-10-25T03:09:49.253922+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -508,7 +511,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.990443+00:00",
+      "ts": "2026-10-25T03:09:49.253948+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -524,7 +527,7 @@
       "score": 0.0
     },
     {
-      "ts": "2026-10-25T03:06:55.990473+00:00",
+      "ts": "2026-10-25T03:09:49.253980+00:00",
       "kind": "skip",
       "scorer_version": "v3",
       "cost_model_version": "costs_v1",
@@ -11014,16 +11017,16 @@
     }
   ],
   "history_files": {
-    "6E9xBtvLjoJ6CkpBWjmzFwtjhXz4HJTCuqEUUzXLpump": "history/6E9xBtvLjoJ6CkpBWjmzFwtjhXz4HJTCuqEUUzXLpump.json",
+    "BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump": "history/BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump.json",
     "GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump": "history/GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump.json",
     "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": "history/H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump.json"
   },
   "swarm": {
-    "equity": 7985.97,
+    "equity": 7988.48,
     "balance": 7925.36,
     "starting_balance": 10000.0,
     "realized_pnl": -2037.32,
-    "unrealized_pnl": 27.01,
+    "unrealized_pnl": 29.52,
     "open_count": 2,
     "pending_count": 0,
     "closed_count": 154,
@@ -11033,11 +11036,11 @@
     "top_open": [
       {
         "symbol": "Chunkee",
-        "pct_change": 119.53
+        "pct_change": 116.54
       },
       {
         "symbol": "CATTLEAXE",
-        "pct_change": 59.85
+        "pct_change": 76.51
       }
     ]
   }
