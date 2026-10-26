@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-26T03:35:32.276208+00:00",
+  "generated_at": "2026-10-26T03:40:25.369137+00:00",
   "scorer_version": "v3",
   "cost_model_version": "costs_v1",
   "config_hash": "c42475f3a1fb",
   "regime": {
-    "regime_value": 0.9,
+    "regime_value": 1.0,
     "regime_state": "poor",
     "samples": 20,
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
   "balance": 216.71,
-  "equity": 271.7,
+  "equity": 260.11,
   "realized_pnl": -750.97,
-  "unrealized_pnl": 24.45,
-  "pnl_pct": -72.83,
+  "unrealized_pnl": 12.86,
+  "pnl_pct": -73.99,
   "wins": 46,
   "losses": 85,
   "trades_closed": 74,
@@ -23,11 +23,11 @@
       "address": "7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump",
       "symbol": "GTA",
       "entry_price": 0.0008417,
-      "current_price": 0.00157,
-      "pct_change": 86.53,
+      "current_price": 0.001239,
+      "pct_change": 47.2,
       "entry_score": 82.0,
       "opened_at": "2026-10-26T02:21:39.427404+00:00",
-      "peak_price": 0.001378,
+      "peak_price": 0.001519,
       "sold_frac": 0.4,
       "ladder_stage": "tp1_done_awaiting_tp2",
       "history_file": "history/7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump.json"
@@ -36,44 +36,11 @@
   "top_candidate": {
     "address": "5uXsRw3FThpUAKfwV8uNsS6WyKg376YTpYyo47Hvpump",
     "symbol": "MAGA2028",
-    "score": 72.3,
-    "price_usd": 0.0005512,
+    "score": 93.0,
+    "price_usd": 0.0005924,
     "history_file": "history/5uXsRw3FThpUAKfwV8uNsS6WyKg376YTpYyo47Hvpump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-26T03:06:56.768066+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "buy_sell_ratio_extreme (4.26 outside 0.35-2.8)",
-      "hard_reject_rule": "buy_sell_ratio_h1 outside 0.35-2.8",
-      "reject_rules": [
-        "buy_sell_ratio_h1 outside 0.35-2.8"
-      ],
-      "symbol": "GIGATITS",
-      "address": "ABp2bT8ovFYYY8etNQmJauRDXgk3tYkt2jpmGqZSpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-26T03:06:56.768097+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "Bow",
-      "address": "3k44GEL1BRGEWG1bYjYjVfM2a8eHSqPUnkdqDC7Fpump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-26T03:06:56.768124+00:00",
       "kind": "skip",
@@ -469,6 +436,30 @@
       "tokens_scanned": 30,
       "top_symbol": "MAGA2028",
       "top_score": 72.3,
+      "above_threshold": 0,
+      "entries_paused": true
+    },
+    {
+      "ts": "2026-10-26T03:36:45.103197+00:00",
+      "kind": "scan",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c42475f3a1fb",
+      "tokens_scanned": 30,
+      "top_symbol": "MAGA2028",
+      "top_score": 85.0,
+      "above_threshold": 0,
+      "entries_paused": true
+    },
+    {
+      "ts": "2026-10-26T03:38:34.890198+00:00",
+      "kind": "scan",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c42475f3a1fb",
+      "tokens_scanned": 30,
+      "top_symbol": "MAGA2028",
+      "top_score": 93.0,
       "above_threshold": 0,
       "entries_paused": true
     }
@@ -11492,11 +11483,11 @@
     "7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump": "history/7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump.json"
   },
   "swarm": {
-    "equity": 7806.23,
+    "equity": 7794.64,
     "balance": 7751.24,
     "starting_balance": 10000.0,
     "realized_pnl": -2213.67,
-    "unrealized_pnl": 24.45,
+    "unrealized_pnl": 12.86,
     "open_count": 1,
     "pending_count": 0,
     "closed_count": 171,
@@ -11506,7 +11497,7 @@
     "top_open": [
       {
         "symbol": "GTA",
-        "pct_change": 86.53
+        "pct_change": 47.2
       }
     ]
   }
