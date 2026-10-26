@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-26T03:15:46.119743+00:00",
+  "generated_at": "2026-10-26T03:20:29.662368+00:00",
   "scorer_version": "v3",
   "cost_model_version": "costs_v1",
   "config_hash": "c42475f3a1fb",
   "regime": {
-    "regime_value": 1.0,
+    "regime_value": 0.95,
     "regime_state": "poor",
     "samples": 20,
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
   "balance": 216.71,
-  "equity": 251.08,
+  "equity": 252.89,
   "realized_pnl": -750.97,
-  "unrealized_pnl": 3.82,
-  "pnl_pct": -74.89,
+  "unrealized_pnl": 5.64,
+  "pnl_pct": -74.71,
   "wins": 46,
   "losses": 85,
   "trades_closed": 74,
@@ -23,8 +23,8 @@
       "address": "7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump",
       "symbol": "GTA",
       "entry_price": 0.0008417,
-      "current_price": 0.0009811,
-      "pct_change": 16.56,
+      "current_price": 0.001033,
+      "pct_change": 22.73,
       "entry_score": 82.0,
       "opened_at": "2026-10-26T02:21:39.427404+00:00",
       "peak_price": 0.001212,
@@ -36,45 +36,11 @@
   "top_candidate": {
     "address": "7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump",
     "symbol": "GTA",
-    "score": 80.0,
-    "price_usd": 0.0009811,
+    "score": 87.0,
+    "price_usd": 0.001033,
     "history_file": "history/7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-26T03:05:23.912717+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "vol_liq > 8 & |h1| < 8"
-      ],
-      "symbol": "ANON",
-      "address": "DW1b4NmhQudLJDAJwWC3qAPv3kZa3q87LxMvUVg4pump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-26T03:05:23.912896+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "top10_concentration > 35%",
-      "hard_reject_rule": "top10_concentration > 35%",
-      "reject_rules": [
-        "top10_concentration > 35%",
-        "top3_concentration > 40%"
-      ],
-      "symbol": "SPY",
-      "address": "7GNXdW2Tb3sHsVmS2hF1or52K6Cmo5t9Dcxeyjtnpump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-26T03:05:23.913087+00:00",
       "kind": "skip",
@@ -510,6 +476,30 @@
       "top_symbol": "GTA",
       "top_score": 80.0,
       "above_threshold": 1,
+      "entries_paused": true
+    },
+    {
+      "ts": "2026-10-26T03:17:44.540465+00:00",
+      "kind": "scan",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c42475f3a1fb",
+      "tokens_scanned": 30,
+      "top_symbol": "MAGA2028",
+      "top_score": 85.0,
+      "above_threshold": 0,
+      "entries_paused": true
+    },
+    {
+      "ts": "2026-10-26T03:19:39.612875+00:00",
+      "kind": "scan",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c42475f3a1fb",
+      "tokens_scanned": 30,
+      "top_symbol": "GTA",
+      "top_score": 87.0,
+      "above_threshold": 0,
       "entries_paused": true
     }
   ],
@@ -11531,11 +11521,11 @@
     "7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump": "history/7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump.json"
   },
   "swarm": {
-    "equity": 7785.61,
+    "equity": 7787.42,
     "balance": 7751.24,
     "starting_balance": 10000.0,
     "realized_pnl": -2213.67,
-    "unrealized_pnl": 3.82,
+    "unrealized_pnl": 5.64,
     "open_count": 1,
     "pending_count": 0,
     "closed_count": 171,
@@ -11545,7 +11535,7 @@
     "top_open": [
       {
         "symbol": "GTA",
-        "pct_change": 16.56
+        "pct_change": 22.73
       }
     ]
   }
