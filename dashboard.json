@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-26T03:30:22.661911+00:00",
+  "generated_at": "2026-10-26T03:35:32.276208+00:00",
   "scorer_version": "v3",
   "cost_model_version": "costs_v1",
   "config_hash": "c42475f3a1fb",
   "regime": {
-    "regime_value": 1.0,
+    "regime_value": 0.9,
     "regime_state": "poor",
     "samples": 20,
     "effective_max_open": 2
   },
   "starting_balance": 1000.0,
   "balance": 216.71,
-  "equity": 256.43,
+  "equity": 271.7,
   "realized_pnl": -750.97,
-  "unrealized_pnl": 9.18,
-  "pnl_pct": -74.36,
+  "unrealized_pnl": 24.45,
+  "pnl_pct": -72.83,
   "wins": 46,
   "losses": 85,
   "trades_closed": 74,
@@ -23,11 +23,11 @@
       "address": "7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump",
       "symbol": "GTA",
       "entry_price": 0.0008417,
-      "current_price": 0.001134,
-      "pct_change": 34.73,
+      "current_price": 0.00157,
+      "pct_change": 86.53,
       "entry_score": 82.0,
       "opened_at": "2026-10-26T02:21:39.427404+00:00",
-      "peak_price": 0.001212,
+      "peak_price": 0.001378,
       "sold_frac": 0.4,
       "ladder_stage": "tp1_done_awaiting_tp2",
       "history_file": "history/7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump.json"
@@ -36,61 +36,11 @@
   "top_candidate": {
     "address": "5uXsRw3FThpUAKfwV8uNsS6WyKg376YTpYyo47Hvpump",
     "symbol": "MAGA2028",
-    "score": 77.0,
-    "price_usd": 0.0005201,
+    "score": 72.3,
+    "price_usd": 0.0005512,
     "history_file": "history/5uXsRw3FThpUAKfwV8uNsS6WyKg376YTpYyo47Hvpump.json"
   },
   "recent_events": [
-    {
-      "ts": "2026-10-26T03:06:56.767940+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000"
-      ],
-      "symbol": "LVC",
-      "address": "8uNfPfgGW4SfhX8qCm9MUSpSEbfd6qNPSY7yHUS3pump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-26T03:06:56.767973+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (3684 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "price_change_1h < -15"
-      ],
-      "symbol": "MACK",
-      "address": "3YEKBSMFbukkFhX1GQD152aHW4rDxe3HNTZe8SKfpump",
-      "score": 0.0
-    },
-    {
-      "ts": "2026-10-26T03:06:56.768007+00:00",
-      "kind": "skip",
-      "scorer_version": "v3",
-      "cost_model_version": "costs_v1",
-      "config_hash": "8a8468bc9556",
-      "reason": "hard_reject",
-      "detail": "liquidity_too_low (0 < 8000)",
-      "hard_reject_rule": "liq_usd < 8000",
-      "reject_rules": [
-        "liq_usd < 8000",
-        "vol_liq > 8 & |h1| < 8"
-      ],
-      "symbol": "POP",
-      "address": "BZauEfvf2483384MS6okHUA2fe7tbM5bFZaCnj5zpump",
-      "score": 0.0
-    },
     {
       "ts": "2026-10-26T03:06:56.768066+00:00",
       "kind": "skip",
@@ -483,6 +433,42 @@
       "tokens_scanned": 30,
       "top_symbol": "MAGA2028",
       "top_score": 77.0,
+      "above_threshold": 0,
+      "entries_paused": true
+    },
+    {
+      "ts": "2026-10-26T03:30:52.076536+00:00",
+      "kind": "scan",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c42475f3a1fb",
+      "tokens_scanned": 30,
+      "top_symbol": "RAYPAD",
+      "top_score": 70.0,
+      "above_threshold": 0,
+      "entries_paused": true
+    },
+    {
+      "ts": "2026-10-26T03:32:42.713987+00:00",
+      "kind": "scan",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c42475f3a1fb",
+      "tokens_scanned": 30,
+      "top_symbol": "MAGA2028",
+      "top_score": 77.0,
+      "above_threshold": 0,
+      "entries_paused": true
+    },
+    {
+      "ts": "2026-10-26T03:34:48.420308+00:00",
+      "kind": "scan",
+      "scorer_version": "v3",
+      "cost_model_version": "costs_v1",
+      "config_hash": "c42475f3a1fb",
+      "tokens_scanned": 30,
+      "top_symbol": "MAGA2028",
+      "top_score": 72.3,
       "above_threshold": 0,
       "entries_paused": true
     }
@@ -11506,11 +11492,11 @@
     "7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump": "history/7JEfFdwmXfQf89ty1sF3aspN9oku9fHikA7XZTTXpump.json"
   },
   "swarm": {
-    "equity": 7790.96,
+    "equity": 7806.23,
     "balance": 7751.24,
     "starting_balance": 10000.0,
     "realized_pnl": -2213.67,
-    "unrealized_pnl": 9.18,
+    "unrealized_pnl": 24.45,
     "open_count": 1,
     "pending_count": 0,
     "closed_count": 171,
@@ -11520,7 +11506,7 @@
     "top_open": [
       {
         "symbol": "GTA",
-        "pct_change": 34.73
+        "pct_change": 86.53
       }
     ]
   }
